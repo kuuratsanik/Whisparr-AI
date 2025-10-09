@@ -10423,7 +10423,8 @@
           "scene",
           "movie",
           "studio",
-          "performer"
+          "performer",
+          "tag"
         ],
         "type": "string"
       },
@@ -10640,6 +10641,11 @@
           },
           "minRefreshInterval": {
             "$ref": "#/components/schemas/TimeSpan"
+          },
+          "lastInfoSync": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -12159,6 +12165,11 @@
             "nullable": true
           },
           "careerEnd": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "age": {
             "type": "integer",
             "format": "int32",
             "nullable": true
