@@ -1,0 +1,11 @@
+{
+  "name": "Whisparr",
+  "install": "bash .cursor/install.sh",
+  "terminals": [
+    {
+      "name": "whisparr",
+      "command": "bash .cursor/start.sh"
+    }
+  ],
+  "ports": [6969]
+}
