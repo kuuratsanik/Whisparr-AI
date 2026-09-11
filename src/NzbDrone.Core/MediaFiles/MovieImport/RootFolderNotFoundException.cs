@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Runtime.Serialization;
 
 namespace NzbDrone.Core.MediaFiles.MovieImport
 {
@@ -19,10 +18,5 @@ namespace NzbDrone.Core.MediaFiles.MovieImport
             : base(message, innerException)
         {
         }
-
-        protected RootFolderNotFoundException(SerializationInfo info, StreamingContext context)
-            : base(info, context)
-        {
-        }
-    }
+}
 }

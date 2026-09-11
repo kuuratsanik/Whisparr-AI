@@ -23,7 +23,14 @@ namespace NzbDrone.Core.Parser
         private static readonly Regex HardcodedSubsRegex = new Regex(@"\b((?<hcsub>(\w+(?<!SOFT|HORRIBLE)SUBS?))|(?<hc>(HC|SUBBED)))\b",
                                                         RegexOptions.Compiled | RegexOptions.IgnoreCase | RegexOptions.IgnorePatternWhitespace);
 
-        private static readonly RegexReplace[] PreSubstitutionRegex = Array.Empty<RegexReplace>();
+        // Strip Torznab / public-indexer category tags (e.g. "GAY: Title") before title matching.
+        // See Whisparr#1257 — category-prefixed releases failed movie matching with no alternate-title escape hatch.
+        private static readonly RegexReplace[] PreSubstitutionRegex = new RegexReplace[]
+        {
+            new RegexReplace(@"^(?:GAY|XXX|PORN|ADULT|STRAIGHT|TRANS|LESBIAN|BISEXUAL|HENTAI)\s*:\s*",
+                string.Empty,
+                RegexOptions.IgnoreCase | RegexOptions.Compiled)
+        };
 
         private static readonly Regex[] ReportTitleRegex = new[]
         {
