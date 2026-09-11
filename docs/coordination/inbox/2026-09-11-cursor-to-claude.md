@@ -1,26 +1,19 @@
 ## Handoff
 - **From:** cursor
 - **To:** claude
-- **Track:** B-Reimagine (harness) + A-Survive awareness
-- **Time (UTC):** 2026-09-11 19:45
+- **Track:** B-Reimagine (harness follow-up)
+- **Time (UTC):** 2026-09-11 20:25
 
 ### Goal
-Add a `dotnet` test harness that scores current `Parser.ParseMovieTitle` against `spikes/matchd/corpus/seed.jsonl` and writes `spikes/matchd/results/baseline.json`.
+Harness landed by Cursor on PR #7 (`spikes/matchd/harness` + committed `results/baseline.json`). Optional: NUnit wrapper mirroring `SceneMatchingFixture`, or tighten performer/title scoring.
 
 ### Context
-- Branch to start from: `cursor/matchd-golden-set-a3ae` (or cherry-pick corpus onto `cursor/upgrade-eros-a3ae` if you need eros parser)
-- Prompt: `prompts/claude/SYSTEM.md`
-- Related fixtures already on eros PR #5: `SceneMatchingFixture`
+- Baseline: 35/40 pass; scene kind P/R = 1.0 on seed
+- Eros API only — develop still has TV-shaped parse
 
 ### Constraints
-- Do NOT start a greenfield rewrite
-- Keep harness read-only vs production DB
-- Prefer NUnit + FluentAssertions consistent with repo
+- No greenfield rewrite
+- Keep harness outside PR #5 merge criteria
 
 ### Done when
-- [ ] `dotnet test` target runs corpus scoring
-- [ ] `results/baseline.json` committed with precision/recall summary
-- [ ] Handoff to Gemini for methodology review
-
-### Evidence
-Test command + baseline metrics
+- [ ] Ack in Slack, or suggested scoring patches

@@ -1,0 +1,942 @@
+{
+  "generatedAtUtc": "2026-09-11T20:23:57.6050695Z",
+  "parserApi": "NzbDrone.Core.Parser.Parser.ParseMovieTitle (eros)",
+  "corpusPath": "/workspace/spikes/matchd/corpus/seed.jsonl",
+  "corpusSha256": "31471604b2ea9a21238e601c3f7dd267136744b503139c3ab31d58e8dea00163",
+  "corpusRows": 40,
+  "summary": {
+    "passed": 35,
+    "failed": 5,
+    "sceneKindPrecision": 1,
+    "sceneKindRecall": 1,
+    "studioAccuracy": 0.8333333333333334,
+    "dateAccuracy": 0.9666666666666667,
+    "titleAccuracy": 0.9166666666666666,
+    "rejectOkRate": 1,
+    "prefixStripAccuracy": 1,
+    "failedIds": [
+      "gs-010",
+      "gs-027",
+      "gs-028",
+      "gs-032",
+      "gs-039"
+    ]
+  },
+  "cases": [
+    {
+      "id": "gs-001",
+      "releaseTitle": "Studio.2025-08-10.Performer.Name.Scene.Title.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Studio",
+        "releaseDate": "2025-08-10",
+        "firstPerformer": "Performer Name",
+        "releaseTokens": ".Performer.Name.Scene.Title",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-002",
+      "releaseTitle": "Studio.2025.08.10.Performer.Name.Scene.Title.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Studio",
+        "releaseDate": "2025-08-10",
+        "firstPerformer": "Performer Name",
+        "releaseTokens": ".Performer.Name.Scene.Title",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-003",
+      "releaseTitle": "Blacked.2024-01-15.Jane.Doe.Deep.Desires.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Blacked",
+        "releaseDate": "2024-01-15",
+        "firstPerformer": "Jane Doe",
+        "releaseTokens": ".Jane.Doe.Deep.Desires.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-004",
+      "releaseTitle": "Vixen.24.03.22.Performer.One.And.Two.Title.Here.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Vixen",
+        "releaseDate": "2024-03-22",
+        "firstPerformer": "Performer One",
+        "releaseTokens": ".Performer.One.And.Two.Title.Here",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-005",
+      "releaseTitle": "GAY: To the Last Man: The Gathering Storm (2009.xvid)",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "To the Last Man: The Gathering Storm",
+        "year": 2009
+      }
+    },
+    {
+      "id": "gs-006",
+      "releaseTitle": "XXX: Example Movie Title (2020)",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Example Movie Title",
+        "year": 2020
+      }
+    },
+    {
+      "id": "gs-007",
+      "releaseTitle": "ADULT: Another.Sample.Movie.2018.1080p.BluRay.x264",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Another Sample Movie",
+        "year": 2018
+      }
+    },
+    {
+      "id": "gs-008",
+      "releaseTitle": "GAY: Blacked.2024-01-15.Jane.Doe.Deep.Desires.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Blacked",
+        "releaseDate": "2024-01-15",
+        "firstPerformer": "Jane Doe",
+        "releaseTokens": ".Jane.Doe.Deep.Desires.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-009",
+      "releaseTitle": "[Blacked] Jane Doe - Deep Desires (15.01.2024) [1080p]",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Blacked",
+        "releaseDate": "2024-01-15",
+        "firstPerformer": "",
+        "releaseTokens": "Jane Doe - Deep Desires (",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-010",
+      "releaseTitle": "Blacked - Jane Doe - Deep Desires - 2024-01-15 - 1080p",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Blacked - Jane Doe - Deep Desires",
+        "releaseDate": "2024-01-15",
+        "firstPerformer": "",
+        "releaseTokens": " - ",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-011",
+      "releaseTitle": "SSIS-001.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "firstPerformer": "",
+        "releaseTokens": "SSIS-001",
+        "code": "SSIS-001",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-012",
+      "releaseTitle": "Studio.2025-08-10.Performer.A.Performer.B.Performer.C.Long.Scene.Title.Here.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Studio",
+        "releaseDate": "2025-08-10",
+        "firstPerformer": "Performer A",
+        "releaseTokens": ".Performer.A.Performer.B.Performer.C.Long.Scene.Title.Here",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-013",
+      "releaseTitle": "www.ExampleTracker.org - Studio.2025-08-10.Performer.Name.Scene.Title.mkv",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Studio",
+        "releaseDate": "2025-08-10",
+        "firstPerformer": "Performer Name",
+        "releaseTokens": "r.org - Studio.2025-08-10.Performer.Name.Scene.Title",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-014",
+      "releaseTitle": "Studio.2025-08-10.Scene.Title.NO.PERFORMER.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Studio",
+        "releaseDate": "2025-08-10",
+        "firstPerformer": "Scene Title",
+        "releaseTokens": ".Scene.Title.NO.PERFORMER.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-015",
+      "releaseTitle": "NOTASCENE.Some.Random.File.mp4",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-016",
+      "releaseTitle": "LESBIAN: Vixen.24.03.22.Performer.One.And.Two.Title.Here.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Vixen",
+        "releaseDate": "2024-03-22",
+        "firstPerformer": "Performer One",
+        "releaseTokens": ".Performer.One.And.Two.Title.Here",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-017",
+      "releaseTitle": "Studio_2025_08_10_Performer_Name_Scene_Title.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Studio",
+        "releaseDate": "2025-08-10",
+        "firstPerformer": "Performer_Name_Scene",
+        "releaseTokens": "_Performer_Name_Scene_Title",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-018",
+      "releaseTitle": "Blacked.2024-01-15.Jane.Doe.Deep.Desires.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Blacked",
+        "releaseDate": "2024-01-15",
+        "firstPerformer": "Jane Doe",
+        "releaseTokens": ".Jane.Doe.Deep.Desires.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-019",
+      "releaseTitle": "TRANS: Example Movie Title (2021)",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Example Movie Title",
+        "year": 2021
+      }
+    },
+    {
+      "id": "gs-020",
+      "releaseTitle": "Studio.2025-13-40.Bad.Date.Title.mp4",
+      "expectKind": "reject",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Studio",
+        "year": 2025
+      }
+    },
+    {
+      "id": "gs-021",
+      "releaseTitle": "Deeper.2023-11-02.Alex.Grey.Midnight.Oil.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Deeper",
+        "releaseDate": "2023-11-02",
+        "firstPerformer": "Alex Grey",
+        "releaseTokens": ".Alex.Grey.Midnight.Oil.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-022",
+      "releaseTitle": "Tushy.23.05.01.Riley.Reid.Soft.Focus.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Tushy",
+        "releaseDate": "2023-05-01",
+        "firstPerformer": "Riley Reid",
+        "releaseTokens": ".Riley.Reid.Soft.Focus",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-023",
+      "releaseTitle": "PORN: Blacked.2024-01-15.Jane.Doe.Deep.Desires.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Blacked",
+        "releaseDate": "2024-01-15",
+        "firstPerformer": "Jane Doe",
+        "releaseTokens": ".Jane.Doe.Deep.Desires.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-024",
+      "releaseTitle": "BISEXUAL: Example Movie Title (2019)",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Example Movie Title",
+        "year": 2019
+      }
+    },
+    {
+      "id": "gs-025",
+      "releaseTitle": "HENTAI: Another.Sample.Movie.2017.720p",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Another Sample Movie",
+        "year": 2017
+      }
+    },
+    {
+      "id": "gs-026",
+      "releaseTitle": "Studio.2025-08-10.Performer.Name.Scene.Title.PROPER.WEBRip.x265-GROUP.mkv",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Studio",
+        "releaseDate": "2025-08-10",
+        "firstPerformer": "Performer Name",
+        "releaseTokens": ".Performer.Name.Scene.Title.PROPER.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-027",
+      "releaseTitle": "(Blacked) Jane Doe Deep Desires 2024.01.15",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "(Blacked) Jane Doe Deep Desires",
+        "releaseDate": "2024-01-15",
+        "firstPerformer": "",
+        "releaseTokens": "(Blacked) Jane Doe Deep Desires 2024.01.15",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-028",
+      "releaseTitle": "Blacked Jane Doe Deep Desires 15-01-2024",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": false,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Blacked Jane Doe Deep Desires",
+        "releaseDate": "2015-01-20",
+        "firstPerformer": "",
+        "releaseTokens": "24",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-029",
+      "releaseTitle": "IPX-900.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "firstPerformer": "",
+        "releaseTokens": "IPX-900",
+        "code": "IPX-900",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-030",
+      "releaseTitle": "FC2-PPV-1234567.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "firstPerformer": "",
+        "releaseTokens": "FC2-PPV-1234567",
+        "code": "FC2-PPV-1234567",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-031",
+      "releaseTitle": "Studio.2025-08-10.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Studio",
+        "releaseDate": "2025-08-10",
+        "firstPerformer": "",
+        "releaseTokens": "Studio.2025-08-10",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-032",
+      "releaseTitle": "2025-08-10.Studio.Performer.Name.Scene.Title.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "releaseDate": "2025-08-10",
+        "firstPerformer": "",
+        "releaseTokens": ".Studio.Performer.Name.Scene.Title",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-033",
+      "releaseTitle": "random.seed.without.structure.xyz",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-034",
+      "releaseTitle": "Studio.99-99-99.Fake.Date.mp4",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-035",
+      "releaseTitle": "STRAIGHT: Vixen.24.03.22.Performer.One.And.Two.Title.Here.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Vixen",
+        "releaseDate": "2024-03-22",
+        "firstPerformer": "Performer One",
+        "releaseTokens": ".Performer.One.And.Two.Title.Here",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-036",
+      "releaseTitle": "EvilAngel.2022-07-04.Performer.X.Title.With.Dots.Inside.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "EvilAngel",
+        "releaseDate": "2022-07-04",
+        "firstPerformer": "Performer X",
+        "releaseTokens": ".Performer.X.Title.With.Dots.Inside.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-037",
+      "releaseTitle": "Evil Angel.2022-07-04.Performer.X.Title.Here.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Evil Angel",
+        "releaseDate": "2022-07-04",
+        "firstPerformer": "Performer X",
+        "releaseTokens": ".Performer.X.Title.Here",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-038",
+      "releaseTitle": "XXX: Studio.2025-08-10.Performer.Name.Scene.Title.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Studio",
+        "releaseDate": "2025-08-10",
+        "firstPerformer": "Performer Name",
+        "releaseTokens": ".Performer.Name.Scene.Title",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-039",
+      "releaseTitle": "SiteRip-Blacked-JaneDoe-DeepDesires-2024-01-15.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SiteRip-Blacked-JaneDoe-DeepDesires",
+        "releaseDate": "2024-01-15",
+        "firstPerformer": "",
+        "releaseTokens": "SiteRip-Blacked-JaneDoe-DeepDesires-2024-01-15",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-040",
+      "releaseTitle": "Blacked.2024-01-15.Jane.Doe.Deep.Desires.SAMPLE.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Blacked",
+        "releaseDate": "2024-01-15",
+        "firstPerformer": "Jane Doe",
+        "releaseTokens": ".Jane.Doe.Deep.Desires.SAMPLE",
+        "year": 0
+      }
+    }
+  ]
+}

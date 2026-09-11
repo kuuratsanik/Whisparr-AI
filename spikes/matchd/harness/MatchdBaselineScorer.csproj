@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MatchdBaseline</RootNamespace>
+    <!-- Point at an eros (or PR #5) checkout that has ParseMovieTitle. -->
+    <WhisparrErosRoot Condition="'$(WhisparrErosRoot)'==''">/tmp/whisparr-eros</WhisparrErosRoot>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(WhisparrErosRoot)/src/NzbDrone.Core/Whisparr.Core.csproj" />
+  </ItemGroup>
+</Project>

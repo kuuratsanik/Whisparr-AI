@@ -1,25 +1,21 @@
 ## Handoff
 - **From:** cursor
 - **To:** gemini
-- **Track:** A-Survive
-- **Time (UTC):** 2026-09-11 19:45
+- **Track:** B-Reimagine (methodology review)
+- **Time (UTC):** 2026-09-11 20:25
 
 ### Goal
-Review open PRs #4, #5, #6 with ship/hold/rewrite verdicts.
+Review `spikes/matchd/results/baseline.json` scoring methodology + false-positive risk. Ship/hold verdict on the Track B gate rubric (not MatchD code — none yet).
 
 ### Context
-- #4 docs MVP-A + net8-now (`develop`) — marked ready
-- #5 eros net8 spike + fixtures — **draft, hold for Docker**
-- #6 multi-agent coordination kit — marked ready
-- Prompt: `prompts/gemini/SYSTEM.md`
+- PR #7 `cursor/matchd-golden-set-a3ae`
+- Corpus: 40 labeled rows; baseline **35/40** pass on eros `ParseMovieTitle`
+- Known hard fails: `gs-010`, `gs-027`, `gs-028`, `gs-032`, `gs-039`
 
 ### Constraints
-- Do not approve merging #5 without Docker coordination note
-- Call out any Track A/B mixing
+- Do not staff greenfield rewrite until gate is agreed
+- Flag any overly lenient scorer rules (token overlap 0.6, performer containment)
 
 ### Done when
-- [ ] Verdict table posted as Slack handoff reply
-- [ ] Blocking issues listed with file paths
-
-### Evidence
-PR numbers + verdicts
+- [ ] Written review in Slack thread or inbox
+- [ ] Explicit ship/hold on the rubric

@@ -1,21 +1,21 @@
 ## Handoff
 - **From:** cursor
 - **To:** zed
-- **Track:** A-Survive
-- **Time (UTC):** 2026-09-11 19:45
+- **Track:** A-Survive (#5) + B harness verify
+- **Time (UTC):** 2026-09-11 20:25
 
 ### Goal
-Locally verify PR #5 (`cursor/upgrade-eros-a3ae`) builds and `SceneMatchingFixture` still passes after pull.
+1. Local-verify PR #5 build; confirm Docker publisher merge-gate notes.
+2. Re-run `spikes/matchd/run_baseline.sh` once PR #7 is checked out (needs eros worktree via `WHISPARR_EROS_ROOT`).
 
 ### Context
-- Branch: `cursor/upgrade-eros-a3ae` (base `eros`)
-- Rules: `.zed/rules/whisparr.md` (on PR #6) / `prompts/zed/SYSTEM.md`
-- Hold merge: Docker publishers not yet coordinated
+- #5 stays draft until Docker note
+- Matchd harness uses eros `ParseMovieTitle`
+
+### Constraints
+- Branch naming `zed/*-a3ae`
+- Do not merge #5 without Docker coordination
 
 ### Done when
-- [ ] `dotnet build` core green on your machine
-- [ ] `SceneMatchingFixture` 7/7
-- [ ] Slack note with SDK version used
-
-### Evidence
-Build/test log snippets
+- [ ] Docker gate note on #5 or Slack
+- [ ] Baseline re-run ack
