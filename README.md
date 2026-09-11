@@ -1,6 +1,8 @@
 # Whisparr
 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Whisparr/Whisparr/build.yml?branch=v2)
+[![Build Status](https://dev.azure.com/Servarr/Whisparr/_apis/build/status/Whisparr.Whisparr?branchName=develop)](https://dev.azure.com/Servarr/Whisparr/_build/latest?definitionId=1&branchName=develop)
+[![Translated](https://translate.servarr.com/widgets/servarr/-/whisparr/svg-badge.svg)](https://translate.servarr.com/engage/whisparr/?utm_source=widget)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hotio/whisparr.svg)](https://wiki.servarr.com/whisparr/installation#docker)
 ![Github Downloads](https://img.shields.io/github/downloads/Whisparr/Whisparr/total.svg)
 [![Backers on Open Collective](https://opencollective.com/Whisparr/backers/badge.svg)](#backers)
 [![Sponsors on Open Collective](https://opencollective.com/Whisparr/sponsors/badge.svg)](#sponsors)
@@ -29,15 +31,26 @@ Note that only one type of a given movie is supported. If you want both an 4k ve
 * Advanced customization for profiles, such that Whisparr will always download the copy you want
 * A beautiful UI
 
-## Installation
-### Version 2.x (based on Sonarr), focuses on studios
-See https://wiki.servarr.com/whisparr/installation
+## Platform lines (primary vs maintenance)
 
-### Version 3.x (based on Radarr), focuses on scenes, but also supports movies.
-Docker: use `image: hotio/whisparr:v3` in Docker Compose
+**Whisparr v3 (`eros`) is the primary / active product line.** New features, runtime upgrades, and upstream sync land on v3. Prefer v3 for new installs.
+
+**Whisparr v2 is maintenance-only** (security and critical fixes). Do not target v2 for new feature work.
+
+| Line | Git branch (this repo / fork) | Upstream GitHub default naming | Docker | Focus |
+| --- | --- | --- | --- | --- |
+| **v3 (primary)** | `eros` | `eros` / eros-develop | `hotio/whisparr:v3` (or linuxserver v3 tags) | Scenes (+ movies); Radarr backend + Sonarr frontend sync model |
+| **v2 (maintenance)** | `develop` | often `v2-develop` on `Whisparr/Whisparr` | studios-focused install paths | Studios; Sonarr-era stack |
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the contributor branch map.
+
+## Installation
+### Version 3.x (primary) — based on Radarr; focuses on scenes, also supports movies
+Docker-only, use `image: hotio/whisparr:v3` in Docker Compose
 See https://wiki.servarr.com/whisparr/installation/docker
 
-Direct install: See ***Releases*** at https://github.com/whisparr/whisparr-eros
+### Version 2.x (maintenance) — based on Sonarr; focuses on studios
+See https://wiki.servarr.com/whisparr/installation
 
 ## Support
 
