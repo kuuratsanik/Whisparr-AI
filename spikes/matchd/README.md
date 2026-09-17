@@ -3,7 +3,7 @@
 **Purpose:** Prove a scene-native matcher can beat the current `eros` parser on a fixed corpus before staffing a rewrite.
 
 **Gate (from PR #5 `docs/GREENFIELD_REBUILD.md` on eros):**
-1. Ingest ≥1k filenames (seed is **200** labeled rows; next: 200 → 1k).
+1. Ingest ≥1k filenames (seed is **500** labeled rows; next: 500 → 1k).
 2. Precision/recall ≥ current parser on the same set.
 3. Read-only import path for an `eros` library (later).
 
@@ -48,11 +48,11 @@ Uses `Parser.ParseMovieTitle` from the eros tree (not develop's TV-shaped parser
 ## Seats
 | Seat | Job |
 | --- | --- |
-| Grok | Grow corpus 200 → 1k (focus fail clusters in `baseline.json`) |
+| Grok / Cursor | Grow corpus 500 → 1k (fail clusters dominate baseline fails) |
 | Claude | Optional NUnit wrap / scoring tweaks (harness landed) |
-| Gemini | Review scoring methodology + FP risk on 200-row `baseline.json` |
-| Cursor | Covered Grok seat to 200; keep gate + PR hygiene |
-| Zed | Local re-run of harness + #5 Docker gate notes |
+| Gemini | Review scoring methodology + FP risk on 500-row `baseline.json` |
+| Cursor | Covered idle seats for corpus + baseline; keep gate + PR hygiene |
+| Zed | **Human-driven local only** — Docker smoke / publisher ping when at keyboard |
 
 ## Non-goals
 - Replacing Whisparr runtime in this spike
