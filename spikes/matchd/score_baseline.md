@@ -18,13 +18,14 @@ Harness: `spikes/matchd/harness` via `./run_baseline.sh` (eros `Parser.ParseMovi
 - Reject ok-rate
 - `failedIds` for red-team follow-up
 
-## Latest seed snapshot (40 rows)
-Recorded in `results/baseline.json`: **35/40 pass**. Hard fails worth expanding around:
-- `gs-010` dash-separated human form
-- `gs-027` parenthetical studio
-- `gs-028` EU spaced date (mis-parsed)
-- `gs-032` date-first ordering
-- `gs-039` SiteRip mash
+## Latest seed snapshot (200 rows)
+Recorded in `results/baseline.json`: **148/200 pass** (scene kind P/R = 1.0; rejectOk = 1.0).
+Dominant fail clusters (MatchD opportunity surface):
+- Dash-separated human form (`gs-010` family)
+- Paren / bracket studio (`gs-027` / `gs-009` family)
+- EU spaced date mash (`gs-028` family)
+- Date-first ordering (`gs-032` family)
+- SiteRip mash (`gs-039` family)
 
 ## Target for gate
 Beat the recorded baseline on the same `corpusSha256`. Do not compare across different corpus hashes.

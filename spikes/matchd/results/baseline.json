@@ -1,17 +1,17 @@
 {
-  "generatedAtUtc": "2026-09-11T20:23:57.6050695Z",
+  "generatedAtUtc": "2026-09-17T08:18:55.7519392Z",
   "parserApi": "NzbDrone.Core.Parser.Parser.ParseMovieTitle (eros)",
   "corpusPath": "/workspace/spikes/matchd/corpus/seed.jsonl",
-  "corpusSha256": "31471604b2ea9a21238e601c3f7dd267136744b503139c3ab31d58e8dea00163",
-  "corpusRows": 40,
+  "corpusSha256": "cb0a2b05d93c6fcdfdfea8d47846222937f22d9ed7b62a2f02fefa49e466da1e",
+  "corpusRows": 200,
   "summary": {
-    "passed": 35,
-    "failed": 5,
+    "passed": 148,
+    "failed": 52,
     "sceneKindPrecision": 1,
     "sceneKindRecall": 1,
-    "studioAccuracy": 0.8333333333333334,
-    "dateAccuracy": 0.9666666666666667,
-    "titleAccuracy": 0.9166666666666666,
+    "studioAccuracy": 0.6941176470588235,
+    "dateAccuracy": 0.9352941176470588,
+    "titleAccuracy": 0.8097826086956522,
     "rejectOkRate": 1,
     "prefixStripAccuracy": 1,
     "failedIds": [
@@ -19,7 +19,54 @@
       "gs-027",
       "gs-028",
       "gs-032",
-      "gs-039"
+      "gs-039",
+      "gs-041",
+      "gs-042",
+      "gs-043",
+      "gs-044",
+      "gs-045",
+      "gs-046",
+      "gs-047",
+      "gs-048",
+      "gs-049",
+      "gs-050",
+      "gs-051",
+      "gs-052",
+      "gs-053",
+      "gs-055",
+      "gs-057",
+      "gs-059",
+      "gs-061",
+      "gs-063",
+      "gs-064",
+      "gs-065",
+      "gs-066",
+      "gs-067",
+      "gs-068",
+      "gs-069",
+      "gs-070",
+      "gs-071",
+      "gs-072",
+      "gs-073",
+      "gs-074",
+      "gs-075",
+      "gs-076",
+      "gs-077",
+      "gs-078",
+      "gs-079",
+      "gs-080",
+      "gs-081",
+      "gs-082",
+      "gs-083",
+      "gs-084",
+      "gs-085",
+      "gs-086",
+      "gs-087",
+      "gs-088",
+      "gs-089",
+      "gs-090",
+      "gs-091",
+      "gs-092"
     ]
   },
   "cases": [
@@ -935,6 +982,3731 @@
         "releaseDate": "2024-01-15",
         "firstPerformer": "Jane Doe",
         "releaseTokens": ".Jane.Doe.Deep.Desires.SAMPLE",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-041",
+      "releaseTitle": "Blacked - Jane Doe - Deep Desires - 2024-01-01 - 1080p",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Blacked - Jane Doe - Deep Desires",
+        "releaseDate": "2024-01-01",
+        "firstPerformer": "",
+        "releaseTokens": " - ",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-042",
+      "releaseTitle": "Vixen - Alex Grey - Soft Focus - 2024-02-02 - 1080p",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Vixen - Alex Grey - Soft Focus",
+        "releaseDate": "2024-02-02",
+        "firstPerformer": "",
+        "releaseTokens": " - ",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-043",
+      "releaseTitle": "Tushy - Riley Reid - Midnight Oil - 2024-03-03 - 1080p",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Tushy - Riley Reid - Midnight Oil",
+        "releaseDate": "2024-03-03",
+        "firstPerformer": "",
+        "releaseTokens": " - ",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-044",
+      "releaseTitle": "Deeper - Performer Name - Scene Title - 2024-04-04 - 1080p",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Deeper - Performer Name - Scene Title",
+        "releaseDate": "2024-04-04",
+        "firstPerformer": "",
+        "releaseTokens": " - ",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-045",
+      "releaseTitle": "Studio - Mia Malkova - Title Here - 2024-05-05 - 1080p",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Studio - Mia Malkova - Title Here",
+        "releaseDate": "2024-05-05",
+        "firstPerformer": "",
+        "releaseTokens": " - ",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-046",
+      "releaseTitle": "EvilAngel - Lana Rhoades - Long Scene Title Here - 2024-06-06 - 1080p",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "EvilAngel - Lana Rhoades - Long Scene Title Here",
+        "releaseDate": "2024-06-06",
+        "firstPerformer": "",
+        "releaseTokens": " - ",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-047",
+      "releaseTitle": "Brazzers - Abella Danger - Private Lesson - 2024-07-07 - 1080p",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Brazzers - Abella Danger - Private Lesson",
+        "releaseDate": "2024-07-07",
+        "firstPerformer": "",
+        "releaseTokens": " - ",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-048",
+      "releaseTitle": "NaughtyAmerica - Angela White - After Hours - 2024-08-08 - 1080p",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "NaughtyAmerica - Angela White - After Hours",
+        "releaseDate": "2024-08-08",
+        "firstPerformer": "",
+        "releaseTokens": " - ",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-049",
+      "releaseTitle": "RealityKings - Eva Lovely - Glass House - 2024-09-09 - 1080p",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RealityKings - Eva Lovely - Glass House",
+        "releaseDate": "2024-09-09",
+        "firstPerformer": "",
+        "releaseTokens": " - ",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-050",
+      "releaseTitle": "BangBros - Nina North - Slow Burn - 2024-10-10 - 1080p",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BangBros - Nina North - Slow Burn",
+        "releaseDate": "2024-10-10",
+        "firstPerformer": "",
+        "releaseTokens": " - ",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-051",
+      "releaseTitle": "DigitalPlayground - Gabbie Carter - Night Drive - 2024-11-11 - 1080p",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "DigitalPlayground - Gabbie Carter - Night Drive",
+        "releaseDate": "2024-11-11",
+        "firstPerformer": "",
+        "releaseTokens": " - ",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-052",
+      "releaseTitle": "Wicked - Autumn Falls - Open Window - 2024-12-12 - 1080p",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Wicked - Autumn Falls - Open Window",
+        "releaseDate": "2024-12-12",
+        "firstPerformer": "",
+        "releaseTokens": " - ",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-053",
+      "releaseTitle": "(Blacked) Jane Doe Deep Desires 2023.01.01",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "(Blacked) Jane Doe Deep Desires",
+        "releaseDate": "2023-01-01",
+        "firstPerformer": "",
+        "releaseTokens": "(Blacked) Jane Doe Deep Desires 2023.01.01",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-054",
+      "releaseTitle": "[Vixen] Alex Grey - Soft Focus (02.02.2023) [1080p]",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Vixen",
+        "releaseDate": "2023-02-02",
+        "firstPerformer": "",
+        "releaseTokens": "Alex Grey - Soft Focus (",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-055",
+      "releaseTitle": "(Tushy) Riley Reid Midnight Oil 2023.03.03",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "(Tushy) Riley Reid Midnight Oil",
+        "releaseDate": "2023-03-03",
+        "firstPerformer": "",
+        "releaseTokens": "(Tushy) Riley Reid Midnight Oil 2023.03.03",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-056",
+      "releaseTitle": "[Deeper] Performer Name - Scene Title (04.04.2023) [1080p]",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Deeper",
+        "releaseDate": "2023-04-04",
+        "firstPerformer": "",
+        "releaseTokens": "Performer Name - Scene Title (",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-057",
+      "releaseTitle": "(Studio) Mia Malkova Title Here 2023.05.05",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "(Studio) Mia Malkova Title Here",
+        "releaseDate": "2023-05-05",
+        "firstPerformer": "",
+        "releaseTokens": "(Studio) Mia Malkova Title Here 2023.05.05",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-058",
+      "releaseTitle": "[EvilAngel] Lana Rhoades - Long Scene Title Here (06.06.2023) [1080p]",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "EvilAngel",
+        "releaseDate": "2023-06-06",
+        "firstPerformer": "",
+        "releaseTokens": "Lana Rhoades - Long Scene Title Here (",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-059",
+      "releaseTitle": "(Brazzers) Abella Danger Private Lesson 2023.07.07",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "(Brazzers) Abella Danger Private Lesson",
+        "releaseDate": "2023-07-07",
+        "firstPerformer": "",
+        "releaseTokens": "(Brazzers) Abella Danger Private Lesson 2023.07.07",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-060",
+      "releaseTitle": "[NaughtyAmerica] Angela White - After Hours (08.08.2023) [1080p]",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "NaughtyAmerica",
+        "releaseDate": "2023-08-08",
+        "firstPerformer": "",
+        "releaseTokens": "Angela White - After Hours (",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-061",
+      "releaseTitle": "(RealityKings) Eva Lovely Glass House 2023.09.09",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "(RealityKings) Eva Lovely Glass House",
+        "releaseDate": "2023-09-09",
+        "firstPerformer": "",
+        "releaseTokens": "(RealityKings) Eva Lovely Glass House 2023.09.09",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-062",
+      "releaseTitle": "[BangBros] Nina North - Slow Burn (10.10.2023) [1080p]",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BangBros",
+        "releaseDate": "2023-10-10",
+        "firstPerformer": "",
+        "releaseTokens": "Nina North - Slow Burn (",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-063",
+      "releaseTitle": "Blacked Jane Doe Deep Desires 01-01-2022",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": false,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Blacked Jane Doe Deep Desires",
+        "releaseDate": "2001-01-20",
+        "firstPerformer": "",
+        "releaseTokens": "22",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-064",
+      "releaseTitle": "Vixen Alex Grey Soft Focus 02-02-2022",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": false,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Vixen Alex Grey Soft Focus",
+        "releaseDate": "2002-02-20",
+        "firstPerformer": "",
+        "releaseTokens": "22",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-065",
+      "releaseTitle": "Tushy Riley Reid Midnight Oil 03-03-2022",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": false,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Tushy Riley Reid Midnight Oil",
+        "releaseDate": "2003-03-20",
+        "firstPerformer": "",
+        "releaseTokens": "22",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-066",
+      "releaseTitle": "Deeper Performer Name Scene Title 04-04-2022",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": false,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Deeper Performer Name Scene Title",
+        "releaseDate": "2004-04-20",
+        "firstPerformer": "",
+        "releaseTokens": "22",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-067",
+      "releaseTitle": "Studio Mia Malkova Title Here 05-05-2022",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": false,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Studio Mia Malkova Title Here",
+        "releaseDate": "2005-05-20",
+        "firstPerformer": "",
+        "releaseTokens": "22",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-068",
+      "releaseTitle": "EvilAngel Lana Rhoades Long Scene Title Here 06-06-2022",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": false,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "EvilAngel Lana Rhoades Long Scene Title Here",
+        "releaseDate": "2006-06-20",
+        "firstPerformer": "",
+        "releaseTokens": "22",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-069",
+      "releaseTitle": "Brazzers Abella Danger Private Lesson 07-07-2022",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": false,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Brazzers Abella Danger Private Lesson",
+        "releaseDate": "2007-07-20",
+        "firstPerformer": "",
+        "releaseTokens": "22",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-070",
+      "releaseTitle": "NaughtyAmerica Angela White After Hours 08-08-2022",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": false,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "NaughtyAmerica Angela White After Hours",
+        "releaseDate": "2008-08-20",
+        "firstPerformer": "",
+        "releaseTokens": "22",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-071",
+      "releaseTitle": "RealityKings Eva Lovely Glass House 09-09-2022",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": false,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RealityKings Eva Lovely Glass House",
+        "releaseDate": "2009-09-20",
+        "firstPerformer": "",
+        "releaseTokens": "22",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-072",
+      "releaseTitle": "BangBros Nina North Slow Burn 10-10-2022",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": false,
+        "primaryTitle": false,
+        "performers": false
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BangBros Nina North Slow Burn",
+        "releaseDate": "2010-10-20",
+        "firstPerformer": "",
+        "releaseTokens": "22",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-073",
+      "releaseTitle": "2025-01-01.Blacked.Jane.Doe.Deep.Desires.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "releaseDate": "2025-01-01",
+        "firstPerformer": "",
+        "releaseTokens": ".Blacked.Jane.Doe.Deep.Desires",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-074",
+      "releaseTitle": "2025-02-02.Vixen.Alex.Grey.Soft.Focus.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "releaseDate": "2025-02-02",
+        "firstPerformer": "",
+        "releaseTokens": ".Vixen.Alex.Grey.Soft.Focus",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-075",
+      "releaseTitle": "2025-03-03.Tushy.Riley.Reid.Midnight.Oil.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "releaseDate": "2025-03-03",
+        "firstPerformer": "",
+        "releaseTokens": ".Tushy.Riley.Reid.Midnight.Oil",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-076",
+      "releaseTitle": "2025-04-04.Deeper.Performer.Name.Scene.Title.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "releaseDate": "2025-04-04",
+        "firstPerformer": "",
+        "releaseTokens": ".Deeper.Performer.Name.Scene.Title",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-077",
+      "releaseTitle": "2025-05-05.Studio.Mia.Malkova.Title.Here.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "releaseDate": "2025-05-05",
+        "firstPerformer": "",
+        "releaseTokens": ".Studio.Mia.Malkova.Title.Here",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-078",
+      "releaseTitle": "2025-06-06.EvilAngel.Lana.Rhoades.Long.Scene.Title.Here.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "releaseDate": "2025-06-06",
+        "firstPerformer": "",
+        "releaseTokens": ".EvilAngel.Lana.Rhoades.Long.Scene.Title.Here",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-079",
+      "releaseTitle": "2025-07-07.Brazzers.Abella.Danger.Private.Lesson.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "releaseDate": "2025-07-07",
+        "firstPerformer": "",
+        "releaseTokens": ".Brazzers.Abella.Danger.Private.Lesson",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-080",
+      "releaseTitle": "2025-08-08.NaughtyAmerica.Angela.White.After.Hours.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "releaseDate": "2025-08-08",
+        "firstPerformer": "",
+        "releaseTokens": ".NaughtyAmerica.Angela.White.After.Hours",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-081",
+      "releaseTitle": "2025-09-09.RealityKings.Eva.Lovely.Glass.House.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "releaseDate": "2025-09-09",
+        "firstPerformer": "",
+        "releaseTokens": ".RealityKings.Eva.Lovely.Glass.House",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-082",
+      "releaseTitle": "2025-10-10.BangBros.Nina.North.Slow.Burn.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "releaseDate": "2025-10-10",
+        "firstPerformer": "",
+        "releaseTokens": ".BangBros.Nina.North.Slow.Burn",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-083",
+      "releaseTitle": "SiteRip-Blacked-JaneDoe-DeepDesires-2024-01-01.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SiteRip-Blacked-JaneDoe-DeepDesires",
+        "releaseDate": "2024-01-01",
+        "firstPerformer": "",
+        "releaseTokens": "SiteRip-Blacked-JaneDoe-DeepDesires-2024-01-01",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-084",
+      "releaseTitle": "SiteRip-Vixen-AlexGrey-SoftFocus-2024-02-02.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SiteRip-Vixen-AlexGrey-SoftFocus",
+        "releaseDate": "2024-02-02",
+        "firstPerformer": "",
+        "releaseTokens": "SiteRip-Vixen-AlexGrey-SoftFocus-2024-02-02",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-085",
+      "releaseTitle": "SiteRip-Tushy-RileyReid-MidnightOil-2024-03-03.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SiteRip-Tushy-RileyReid-MidnightOil",
+        "releaseDate": "2024-03-03",
+        "firstPerformer": "",
+        "releaseTokens": "SiteRip-Tushy-RileyReid-MidnightOil-2024-03-03",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-086",
+      "releaseTitle": "SiteRip-Deeper-PerformerName-SceneTitle-2024-04-04.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SiteRip-Deeper-PerformerName-SceneTitle",
+        "releaseDate": "2024-04-04",
+        "firstPerformer": "",
+        "releaseTokens": "SiteRip-Deeper-PerformerName-SceneTitle-2024-04-04",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-087",
+      "releaseTitle": "SiteRip-Studio-MiaMalkova-TitleHere-2024-05-05.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SiteRip-Studio-MiaMalkova-TitleHere",
+        "releaseDate": "2024-05-05",
+        "firstPerformer": "",
+        "releaseTokens": "SiteRip-Studio-MiaMalkova-TitleHere-2024-05-05",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-088",
+      "releaseTitle": "SiteRip-EvilAngel-LanaRhoades-LongSceneTitleHere-2024-06-06.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SiteRip-EvilAngel-LanaRhoades-LongSceneTitleHere",
+        "releaseDate": "2024-06-06",
+        "firstPerformer": "",
+        "releaseTokens": "SiteRip-EvilAngel-LanaRhoades-LongSceneTitleHere-2024-06-06",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-089",
+      "releaseTitle": "SiteRip-Brazzers-AbellaDanger-PrivateLesson-2024-07-07.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SiteRip-Brazzers-AbellaDanger-PrivateLesson",
+        "releaseDate": "2024-07-07",
+        "firstPerformer": "",
+        "releaseTokens": "SiteRip-Brazzers-AbellaDanger-PrivateLesson-2024-07-07",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-090",
+      "releaseTitle": "SiteRip-NaughtyAmerica-AngelaWhite-AfterHours-2024-08-08.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SiteRip-NaughtyAmerica-AngelaWhite-AfterHours",
+        "releaseDate": "2024-08-08",
+        "firstPerformer": "",
+        "releaseTokens": "SiteRip-NaughtyAmerica-AngelaWhite-AfterHours-2024-08-08",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-091",
+      "releaseTitle": "SiteRip-RealityKings-EvaLovely-GlassHouse-2024-09-09.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SiteRip-RealityKings-EvaLovely-GlassHouse",
+        "releaseDate": "2024-09-09",
+        "firstPerformer": "",
+        "releaseTokens": "SiteRip-RealityKings-EvaLovely-GlassHouse-2024-09-09",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-092",
+      "releaseTitle": "SiteRip-BangBros-NinaNorth-SlowBurn-2024-10-10.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": false,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": false,
+        "date": true,
+        "primaryTitle": false,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SiteRip-BangBros-NinaNorth-SlowBurn",
+        "releaseDate": "2024-10-10",
+        "firstPerformer": "",
+        "releaseTokens": "SiteRip-BangBros-NinaNorth-SlowBurn-2024-10-10",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-093",
+      "releaseTitle": "Blacked.21.01.01.Jane.Doe.Deep.Desires.1080p.720p.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Blacked",
+        "releaseDate": "2021-01-01",
+        "firstPerformer": "Jane Doe",
+        "releaseTokens": ".Jane.Doe.Deep.Desires.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-094",
+      "releaseTitle": "Vixen.2022.02.02.Alex.Grey.Soft.Focus.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Vixen",
+        "releaseDate": "2022-02-02",
+        "firstPerformer": "Alex Grey",
+        "releaseTokens": ".Alex.Grey.Soft.Focus",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-095",
+      "releaseTitle": "Tushy_2023_03_03_Riley_Reid_Midnight.Oil.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Tushy",
+        "releaseDate": "2023-03-03",
+        "firstPerformer": "Riley_Reid_Midnight",
+        "releaseTokens": "_Riley_Reid_Midnight.Oil",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-096",
+      "releaseTitle": "LESBIAN: Deeper.2024-04-04.Performer.Name.Scene.Title.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Deeper",
+        "releaseDate": "2024-04-04",
+        "firstPerformer": "Performer Name",
+        "releaseTokens": ".Performer.Name.Scene.Title.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-097",
+      "releaseTitle": "www.ExampleTracker.org - Studio.2025-05-05.Mia.Malkova.Title.Here.mkv",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Studio",
+        "releaseDate": "2025-05-05",
+        "firstPerformer": "Mia Malkova",
+        "releaseTokens": "r.org - Studio.2025-05-05.Mia.Malkova.Title.Here",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-098",
+      "releaseTitle": "EvilAngel.21.06.06.Lana.Rhoades.Long.Scene.Title.Here.WEBRip.x264.x265.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "EvilAngel",
+        "releaseDate": "2021-06-06",
+        "firstPerformer": "Lana Rhoades",
+        "releaseTokens": ".Lana.Rhoades.Long.Scene.Title.Here.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-099",
+      "releaseTitle": "Brazzers.2022.07.07.Abella.Danger.Private.Lesson.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Brazzers",
+        "releaseDate": "2022-07-07",
+        "firstPerformer": "Abella Danger",
+        "releaseTokens": ".Abella.Danger.Private.Lesson",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-100",
+      "releaseTitle": "NaughtyAmerica_2023_08_08_Angela_White_After.Hours.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "NaughtyAmerica",
+        "releaseDate": "2023-08-08",
+        "firstPerformer": "Angela_White_After",
+        "releaseTokens": "_Angela_White_After.Hours",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-101",
+      "releaseTitle": "HENTAI: RealityKings.2024-09-09.Eva.Lovely.Glass.House.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RealityKings",
+        "releaseDate": "2024-09-09",
+        "firstPerformer": "Eva Lovely",
+        "releaseTokens": ".Eva.Lovely.Glass.House.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-102",
+      "releaseTitle": "www.ExampleTracker.org - BangBros.2025-10-10.Nina.North.Slow.Burn.mkv",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BangBros",
+        "releaseDate": "2025-10-10",
+        "firstPerformer": "Nina North",
+        "releaseTokens": "org - BangBros.2025-10-10.Nina.North.Slow.Burn",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-103",
+      "releaseTitle": "DigitalPlayground.21.11.11.Gabbie.Carter.Night.Drive.REPACK.PROPER.SAMPLE.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "DigitalPlayground",
+        "releaseDate": "2021-11-11",
+        "firstPerformer": "Gabbie Carter",
+        "releaseTokens": ".Gabbie.Carter.Night.Drive.REPACK.PROPER.SAMPLE",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-104",
+      "releaseTitle": "Wicked.2022.12.12.Autumn.Falls.Open.Window.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Wicked",
+        "releaseDate": "2022-12-12",
+        "firstPerformer": "Autumn Falls",
+        "releaseTokens": ".Autumn.Falls.Open.Window",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-105",
+      "releaseTitle": "PureTaboo_2023_01_13_Jane_Doe_Quiet.Room.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "PureTaboo",
+        "releaseDate": "2023-01-13",
+        "firstPerformer": "Jane_Doe_Quiet",
+        "releaseTokens": "_Jane_Doe_Quiet.Room",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-106",
+      "releaseTitle": "TRANS: Slayed.2024-02-14.Alex.Grey.Red.Light.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Slayed",
+        "releaseDate": "2024-02-14",
+        "firstPerformer": "Alex Grey",
+        "releaseTokens": ".Alex.Grey.Red.Light.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-107",
+      "releaseTitle": "www.ExampleTracker.org - BlackedRaw.2025-03-15.Riley.Reid.Deep.Desires.mkv",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BlackedRaw",
+        "releaseDate": "2025-03-15",
+        "firstPerformer": "Riley Reid",
+        "releaseTokens": "g - BlackedRaw.2025-03-15.Riley.Reid.Deep.Desires",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-108",
+      "releaseTitle": "VixenPlus.21.04.16.Performer.Name.Soft.Focus.2160p.WEB-DL.BluRay.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "VixenPlus",
+        "releaseDate": "2021-04-16",
+        "firstPerformer": "Performer Name",
+        "releaseTokens": ".Performer.Name.Soft.Focus.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-109",
+      "releaseTitle": "AdultTime.2022.05.17.Mia.Malkova.Midnight.Oil.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "AdultTime",
+        "releaseDate": "2022-05-17",
+        "firstPerformer": "Mia Malkova",
+        "releaseTokens": ".Mia.Malkova.Midnight.Oil",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-110",
+      "releaseTitle": "MileHigh_2023_06_18_Lana_Rhoades_Scene.Title.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "MileHigh",
+        "releaseDate": "2023-06-18",
+        "firstPerformer": "Lana_Rhoades_Scene",
+        "releaseTokens": "_Lana_Rhoades_Scene.Title",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-111",
+      "releaseTitle": "GAY: Blacked.2024-07-19.Abella.Danger.Title.Here.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Blacked",
+        "releaseDate": "2024-07-19",
+        "firstPerformer": "Abella Danger",
+        "releaseTokens": ".Abella.Danger.Title.Here.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-112",
+      "releaseTitle": "www.ExampleTracker.org - Vixen.2025-08-20.Angela.White.Long.Scene.Title.Here.mkv",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Vixen",
+        "releaseDate": "2025-08-20",
+        "firstPerformer": "Angela White",
+        "releaseTokens": "er.org - Vixen.2025-08-20.Angela.White.Long.Scene.Title.Here",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-113",
+      "releaseTitle": "Tushy.21.09.21.Eva.Lovely.Private.Lesson.x265.H264.AAC.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Tushy",
+        "releaseDate": "2021-09-21",
+        "firstPerformer": "Eva Lovely",
+        "releaseTokens": ".Eva.Lovely.Private.Lesson.x265.H264.AAC",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-114",
+      "releaseTitle": "Deeper.2022.10.22.Nina.North.After.Hours.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Deeper",
+        "releaseDate": "2022-10-22",
+        "firstPerformer": "Nina North",
+        "releaseTokens": ".Nina.North.After.Hours",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-115",
+      "releaseTitle": "Studio_2023_11_23_Gabbie_Carter_Glass.House.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Studio",
+        "releaseDate": "2023-11-23",
+        "firstPerformer": "Gabbie_Carter_Glass",
+        "releaseTokens": "_Gabbie_Carter_Glass.House",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-116",
+      "releaseTitle": "PORN: EvilAngel.2024-12-24.Autumn.Falls.Slow.Burn.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "EvilAngel",
+        "releaseDate": "2024-12-24",
+        "firstPerformer": "Autumn Falls",
+        "releaseTokens": ".Autumn.Falls.Slow.Burn.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-117",
+      "releaseTitle": "www.ExampleTracker.org - Brazzers.2025-01-25.Jane.Doe.Night.Drive.mkv",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Brazzers",
+        "releaseDate": "2025-01-25",
+        "firstPerformer": "Jane Doe",
+        "releaseTokens": "org - Brazzers.2025-01-25.Jane.Doe.Night.Drive",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-118",
+      "releaseTitle": "NaughtyAmerica.21.02.26.Alex.Grey.Open.Window.SAMPLE.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "NaughtyAmerica",
+        "releaseDate": "2021-02-26",
+        "firstPerformer": "Alex Grey",
+        "releaseTokens": ".Alex.Grey.Open.Window.SAMPLE",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-119",
+      "releaseTitle": "RealityKings.2022.03.27.Riley.Reid.Quiet.Room.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RealityKings",
+        "releaseDate": "2022-03-27",
+        "firstPerformer": "Riley Reid",
+        "releaseTokens": ".Riley.Reid.Quiet.Room",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-120",
+      "releaseTitle": "BangBros_2023_04_01_Performer_Name_Red.Light.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BangBros",
+        "releaseDate": "2023-04-01",
+        "firstPerformer": "Performer_Name_Red",
+        "releaseTokens": "_Performer_Name_Red.Light",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-121",
+      "releaseTitle": "XXX: DigitalPlayground.2024-05-02.Mia.Malkova.Deep.Desires.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "DigitalPlayground",
+        "releaseDate": "2024-05-02",
+        "firstPerformer": "Mia Malkova",
+        "releaseTokens": ".Mia.Malkova.Deep.Desires.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-122",
+      "releaseTitle": "www.ExampleTracker.org - Wicked.2025-06-03.Lana.Rhoades.Soft.Focus.mkv",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Wicked",
+        "releaseDate": "2025-06-03",
+        "firstPerformer": "Lana Rhoades",
+        "releaseTokens": "r.org - Wicked.2025-06-03.Lana.Rhoades.Soft.Focus",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-123",
+      "releaseTitle": "Blacked.2024-01-01.Jane.Doe.And.Performer.Name.Deep.Desires.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Blacked",
+        "releaseDate": "2024-01-01",
+        "firstPerformer": "Jane Doe",
+        "releaseTokens": ".Jane.Doe.And.Performer.Name.Deep.Desires.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-124",
+      "releaseTitle": "Vixen.2024-02-02.Alex.Grey.And.Mia.Malkova.Soft.Focus.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Vixen",
+        "releaseDate": "2024-02-02",
+        "firstPerformer": "Alex Grey",
+        "releaseTokens": ".Alex.Grey.And.Mia.Malkova.Soft.Focus.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-125",
+      "releaseTitle": "Tushy.2024-03-03.Riley.Reid.And.Lana.Rhoades.Midnight.Oil.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Tushy",
+        "releaseDate": "2024-03-03",
+        "firstPerformer": "Riley Reid",
+        "releaseTokens": ".Riley.Reid.And.Lana.Rhoades.Midnight.Oil.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-126",
+      "releaseTitle": "Deeper.2024-04-04.Performer.Name.And.Abella.Danger.Scene.Title.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Deeper",
+        "releaseDate": "2024-04-04",
+        "firstPerformer": "Performer Name",
+        "releaseTokens": ".Performer.Name.And.Abella.Danger.Scene.Title.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-127",
+      "releaseTitle": "Studio.2024-05-05.Mia.Malkova.And.Angela.White.Title.Here.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Studio",
+        "releaseDate": "2024-05-05",
+        "firstPerformer": "Mia Malkova",
+        "releaseTokens": ".Mia.Malkova.And.Angela.White.Title.Here.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-128",
+      "releaseTitle": "EvilAngel.2024-06-06.Lana.Rhoades.And.Eva.Lovely.Long.Scene.Title.Here.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "EvilAngel",
+        "releaseDate": "2024-06-06",
+        "firstPerformer": "Lana Rhoades",
+        "releaseTokens": ".Lana.Rhoades.And.Eva.Lovely.Long.Scene.Title.Here.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-129",
+      "releaseTitle": "Brazzers.2024-07-07.Abella.Danger.And.Nina.North.Private.Lesson.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Brazzers",
+        "releaseDate": "2024-07-07",
+        "firstPerformer": "Abella Danger",
+        "releaseTokens": ".Abella.Danger.And.Nina.North.Private.Lesson.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-130",
+      "releaseTitle": "NaughtyAmerica.2024-08-08.Angela.White.And.Gabbie.Carter.After.Hours.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "NaughtyAmerica",
+        "releaseDate": "2024-08-08",
+        "firstPerformer": "Angela White",
+        "releaseTokens": ".Angela.White.And.Gabbie.Carter.After.Hours.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-131",
+      "releaseTitle": "GAY: To the Last Man: The Gathering Storm (2009)",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "To the Last Man: The Gathering Storm",
+        "year": 2009
+      }
+    },
+    {
+      "id": "gs-132",
+      "releaseTitle": "XXX: Example.Movie.Title.2020.1080p.BluRay.x264",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Example Movie Title",
+        "year": 2020
+      }
+    },
+    {
+      "id": "gs-133",
+      "releaseTitle": "ADULT: Another Sample Movie (2018.xvid)",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Another Sample Movie",
+        "year": 2018
+      }
+    },
+    {
+      "id": "gs-134",
+      "releaseTitle": "LESBIAN: Quiet River Crossing (2015)",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Quiet River Crossing",
+        "year": 2015
+      }
+    },
+    {
+      "id": "gs-135",
+      "releaseTitle": "TRANS: Glass.House.Protocol.2021.1080p.BluRay.x264",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Glass House Protocol",
+        "year": 2021
+      }
+    },
+    {
+      "id": "gs-136",
+      "releaseTitle": "PORN: Midnight Oil Legacy (2017.xvid)",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Midnight Oil Legacy",
+        "year": 2017
+      }
+    },
+    {
+      "id": "gs-137",
+      "releaseTitle": "STRAIGHT: Soft Focus Documentary (2019)",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Soft Focus Documentary",
+        "year": 2019
+      }
+    },
+    {
+      "id": "gs-138",
+      "releaseTitle": "BISEXUAL: Private.Lesson.Remastered.2016.1080p.BluRay.x264",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Private Lesson",
+        "year": 2016
+      }
+    },
+    {
+      "id": "gs-139",
+      "releaseTitle": "SSIS-001.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "firstPerformer": "",
+        "releaseTokens": "SSIS-001",
+        "code": "SSIS-001",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-140",
+      "releaseTitle": "IPX-900.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "firstPerformer": "",
+        "releaseTokens": "IPX-900",
+        "code": "IPX-900",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-141",
+      "releaseTitle": "FC2-PPV-1234567.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "firstPerformer": "",
+        "releaseTokens": "FC2-PPV-1234567",
+        "code": "FC2-PPV-1234567",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-142",
+      "releaseTitle": "STARS-450.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "firstPerformer": "",
+        "releaseTokens": "STARS-450",
+        "code": "STARS-450",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-143",
+      "releaseTitle": "MIDE-999.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "firstPerformer": "",
+        "releaseTokens": "MIDE-999",
+        "code": "MIDE-999",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-144",
+      "releaseTitle": "SSNI-780.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "firstPerformer": "",
+        "releaseTokens": "SSNI-780",
+        "code": "SSNI-780",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-145",
+      "releaseTitle": "PRED-120.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "firstPerformer": "",
+        "releaseTokens": "PRED-120",
+        "code": "PRED-120",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-146",
+      "releaseTitle": "JUFE-200.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "firstPerformer": "",
+        "releaseTokens": "JUFE-200",
+        "code": "JUFE-200",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-147",
+      "releaseTitle": "DASD-800.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "firstPerformer": "",
+        "releaseTokens": "DASD-800",
+        "code": "DASD-800",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-148",
+      "releaseTitle": "ABW-300.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "",
+        "firstPerformer": "",
+        "releaseTokens": "ABW-300",
+        "code": "ABW-300",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-149",
+      "releaseTitle": "NOTASCENE.Some.Random.File.mp4",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-150",
+      "releaseTitle": "random.seed.without.structure.xyz",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-151",
+      "releaseTitle": "Studio.2025-13-40.Bad.Date.Title.mp4",
+      "expectKind": "reject",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Studio",
+        "year": 2025
+      }
+    },
+    {
+      "id": "gs-152",
+      "releaseTitle": "Studio.99-99-99.Fake.Date.mp4",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-153",
+      "releaseTitle": "just-a-filename.mkv",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-154",
+      "releaseTitle": "README.txt",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-155",
+      "releaseTitle": "Studio.2024-02-30.Impossible.Day.mp4",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-156",
+      "releaseTitle": "....mp4",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-157",
+      "releaseTitle": "2024.mp4",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-158",
+      "releaseTitle": "complete.season.pack.S01",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-159",
+      "releaseTitle": "sample_only_no_identity.bin",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-160",
+      "releaseTitle": "Thumbs.db",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-161",
+      "releaseTitle": "Blacked.2025-01-01.Deep.Desires.NO.PERFORMER.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Blacked",
+        "releaseDate": "2025-01-01",
+        "firstPerformer": "Deep Desires",
+        "releaseTokens": ".Deep.Desires.NO.PERFORMER.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-162",
+      "releaseTitle": "Vixen.2025-02-02.Soft.Focus.NO.PERFORMER.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Vixen",
+        "releaseDate": "2025-02-02",
+        "firstPerformer": "Soft Focus",
+        "releaseTokens": ".Soft.Focus.NO.PERFORMER.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-163",
+      "releaseTitle": "Tushy.2025-03-03.Midnight.Oil.NO.PERFORMER.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Tushy",
+        "releaseDate": "2025-03-03",
+        "firstPerformer": "Midnight Oil",
+        "releaseTokens": ".Midnight.Oil.NO.PERFORMER.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-164",
+      "releaseTitle": "Deeper.2025-04-04.Scene.Title.NO.PERFORMER.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Deeper",
+        "releaseDate": "2025-04-04",
+        "firstPerformer": "Scene Title",
+        "releaseTokens": ".Scene.Title.NO.PERFORMER.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-165",
+      "releaseTitle": "Studio.2025-05-05.Title.Here.NO.PERFORMER.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Studio",
+        "releaseDate": "2025-05-05",
+        "firstPerformer": "Title Here",
+        "releaseTokens": ".Title.Here.NO.PERFORMER.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-166",
+      "releaseTitle": "EvilAngel.2025-06-06.Long.Scene.Title.Here.NO.PERFORMER.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "EvilAngel",
+        "releaseDate": "2025-06-06",
+        "firstPerformer": "Long Scene",
+        "releaseTokens": ".Long.Scene.Title.Here.NO.PERFORMER.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-167",
+      "releaseTitle": "Blacked.2025-01-01.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Blacked",
+        "releaseDate": "2025-01-01",
+        "firstPerformer": "",
+        "releaseTokens": "Blacked.2025-01-01",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-168",
+      "releaseTitle": "Vixen.2025-02-02.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Vixen",
+        "releaseDate": "2025-02-02",
+        "firstPerformer": "",
+        "releaseTokens": "Vixen.2025-02-02",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-169",
+      "releaseTitle": "Tushy.2025-03-03.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Tushy",
+        "releaseDate": "2025-03-03",
+        "firstPerformer": "",
+        "releaseTokens": "Tushy.2025-03-03",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-170",
+      "releaseTitle": "Deeper.2025-04-04.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Deeper",
+        "releaseDate": "2025-04-04",
+        "firstPerformer": "",
+        "releaseTokens": "Deeper.2025-04-04",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-171",
+      "releaseTitle": "Blacked.2020-01-01.Jane.Doe.Deep.Desires.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Blacked",
+        "releaseDate": "2020-01-01",
+        "firstPerformer": "Jane Doe",
+        "releaseTokens": ".Jane.Doe.Deep.Desires.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-172",
+      "releaseTitle": "Vixen.2020-02-02.Alex.Grey.Soft.Focus.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Vixen",
+        "releaseDate": "2020-02-02",
+        "firstPerformer": "Alex Grey",
+        "releaseTokens": ".Alex.Grey.Soft.Focus.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-173",
+      "releaseTitle": "Tushy.2020-03-03.Riley.Reid.Midnight.Oil.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Tushy",
+        "releaseDate": "2020-03-03",
+        "firstPerformer": "Riley Reid",
+        "releaseTokens": ".Riley.Reid.Midnight.Oil.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-174",
+      "releaseTitle": "Deeper.2020-04-04.Performer.Name.Scene.Title.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Deeper",
+        "releaseDate": "2020-04-04",
+        "firstPerformer": "Performer Name",
+        "releaseTokens": ".Performer.Name.Scene.Title.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-175",
+      "releaseTitle": "Studio.2020-05-05.Mia.Malkova.Title.Here.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Studio",
+        "releaseDate": "2020-05-05",
+        "firstPerformer": "Mia Malkova",
+        "releaseTokens": ".Mia.Malkova.Title.Here.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-176",
+      "releaseTitle": "EvilAngel.2020-06-06.Lana.Rhoades.Long.Scene.Title.Here.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "EvilAngel",
+        "releaseDate": "2020-06-06",
+        "firstPerformer": "Lana Rhoades",
+        "releaseTokens": ".Lana.Rhoades.Long.Scene.Title.Here.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-177",
+      "releaseTitle": "Brazzers.2020-07-07.Abella.Danger.Private.Lesson.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Brazzers",
+        "releaseDate": "2020-07-07",
+        "firstPerformer": "Abella Danger",
+        "releaseTokens": ".Abella.Danger.Private.Lesson.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-178",
+      "releaseTitle": "NaughtyAmerica.2020-08-08.Angela.White.After.Hours.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "NaughtyAmerica",
+        "releaseDate": "2020-08-08",
+        "firstPerformer": "Angela White",
+        "releaseTokens": ".Angela.White.After.Hours.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-179",
+      "releaseTitle": "RealityKings.2020-09-09.Eva.Lovely.Glass.House.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RealityKings",
+        "releaseDate": "2020-09-09",
+        "firstPerformer": "Eva Lovely",
+        "releaseTokens": ".Eva.Lovely.Glass.House.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-180",
+      "releaseTitle": "BangBros.2020-10-10.Nina.North.Slow.Burn.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BangBros",
+        "releaseDate": "2020-10-10",
+        "firstPerformer": "Nina North",
+        "releaseTokens": ".Nina.North.Slow.Burn.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-181",
+      "releaseTitle": "DigitalPlayground.2020-11-11.Gabbie.Carter.Night.Drive.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "DigitalPlayground",
+        "releaseDate": "2020-11-11",
+        "firstPerformer": "Gabbie Carter",
+        "releaseTokens": ".Gabbie.Carter.Night.Drive.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-182",
+      "releaseTitle": "Wicked.2020-12-12.Autumn.Falls.Open.Window.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Wicked",
+        "releaseDate": "2020-12-12",
+        "firstPerformer": "Autumn Falls",
+        "releaseTokens": ".Autumn.Falls.Open.Window.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-183",
+      "releaseTitle": "PureTaboo.2020-01-13.Jane.Doe.Quiet.Room.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "PureTaboo",
+        "releaseDate": "2020-01-13",
+        "firstPerformer": "Jane Doe",
+        "releaseTokens": ".Jane.Doe.Quiet.Room.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-184",
+      "releaseTitle": "Slayed.2020-02-14.Alex.Grey.Red.Light.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Slayed",
+        "releaseDate": "2020-02-14",
+        "firstPerformer": "Alex Grey",
+        "releaseTokens": ".Alex.Grey.Red.Light.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-185",
+      "releaseTitle": "BlackedRaw.2020-03-15.Riley.Reid.Deep.Desires.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BlackedRaw",
+        "releaseDate": "2020-03-15",
+        "firstPerformer": "Riley Reid",
+        "releaseTokens": ".Riley.Reid.Deep.Desires.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-186",
+      "releaseTitle": "VixenPlus.2020-04-16.Performer.Name.Soft.Focus.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "VixenPlus",
+        "releaseDate": "2020-04-16",
+        "firstPerformer": "Performer Name",
+        "releaseTokens": ".Performer.Name.Soft.Focus.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-187",
+      "releaseTitle": "AdultTime.2020-05-17.Mia.Malkova.Midnight.Oil.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "AdultTime",
+        "releaseDate": "2020-05-17",
+        "firstPerformer": "Mia Malkova",
+        "releaseTokens": ".Mia.Malkova.Midnight.Oil.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-188",
+      "releaseTitle": "MileHigh.2020-06-18.Lana.Rhoades.Scene.Title.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "MileHigh",
+        "releaseDate": "2020-06-18",
+        "firstPerformer": "Lana Rhoades",
+        "releaseTokens": ".Lana.Rhoades.Scene.Title.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-189",
+      "releaseTitle": "Blacked.2020-07-19.Abella.Danger.Title.Here.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Blacked",
+        "releaseDate": "2020-07-19",
+        "firstPerformer": "Abella Danger",
+        "releaseTokens": ".Abella.Danger.Title.Here.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-190",
+      "releaseTitle": "Vixen.2020-08-20.Angela.White.Long.Scene.Title.Here.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Vixen",
+        "releaseDate": "2020-08-20",
+        "firstPerformer": "Angela White",
+        "releaseTokens": ".Angela.White.Long.Scene.Title.Here.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-191",
+      "releaseTitle": "Tushy.2020-09-21.Eva.Lovely.Private.Lesson.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Tushy",
+        "releaseDate": "2020-09-21",
+        "firstPerformer": "Eva Lovely",
+        "releaseTokens": ".Eva.Lovely.Private.Lesson.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-192",
+      "releaseTitle": "Deeper.2020-10-22.Nina.North.After.Hours.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Deeper",
+        "releaseDate": "2020-10-22",
+        "firstPerformer": "Nina North",
+        "releaseTokens": ".Nina.North.After.Hours.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-193",
+      "releaseTitle": "Studio.2020-11-23.Gabbie.Carter.Glass.House.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Studio",
+        "releaseDate": "2020-11-23",
+        "firstPerformer": "Gabbie Carter",
+        "releaseTokens": ".Gabbie.Carter.Glass.House.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-194",
+      "releaseTitle": "EvilAngel.2020-12-24.Autumn.Falls.Slow.Burn.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "EvilAngel",
+        "releaseDate": "2020-12-24",
+        "firstPerformer": "Autumn Falls",
+        "releaseTokens": ".Autumn.Falls.Slow.Burn.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-195",
+      "releaseTitle": "Brazzers.2020-01-25.Jane.Doe.Night.Drive.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Brazzers",
+        "releaseDate": "2020-01-25",
+        "firstPerformer": "Jane Doe",
+        "releaseTokens": ".Jane.Doe.Night.Drive.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-196",
+      "releaseTitle": "NaughtyAmerica.2020-02-26.Alex.Grey.Open.Window.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "NaughtyAmerica",
+        "releaseDate": "2020-02-26",
+        "firstPerformer": "Alex Grey",
+        "releaseTokens": ".Alex.Grey.Open.Window.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-197",
+      "releaseTitle": "RealityKings.2020-03-27.Riley.Reid.Quiet.Room.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RealityKings",
+        "releaseDate": "2020-03-27",
+        "firstPerformer": "Riley Reid",
+        "releaseTokens": ".Riley.Reid.Quiet.Room.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-198",
+      "releaseTitle": "BangBros.2020-04-01.Performer.Name.Red.Light.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BangBros",
+        "releaseDate": "2020-04-01",
+        "firstPerformer": "Performer Name",
+        "releaseTokens": ".Performer.Name.Red.Light.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-199",
+      "releaseTitle": "DigitalPlayground.2020-05-02.Mia.Malkova.Deep.Desires.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "DigitalPlayground",
+        "releaseDate": "2020-05-02",
+        "firstPerformer": "Mia Malkova",
+        "releaseTokens": ".Mia.Malkova.Deep.Desires.REPACK.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-200",
+      "releaseTitle": "Wicked.2020-06-03.Lana.Rhoades.Soft.Focus.REPACK.1080p.WEB-DL.AAC.H264-GROUP.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Wicked",
+        "releaseDate": "2020-06-03",
+        "firstPerformer": "Lana Rhoades",
+        "releaseTokens": ".Lana.Rhoades.Soft.Focus.REPACK.",
         "year": 0
       }
     }
