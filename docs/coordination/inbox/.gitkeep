@@ -1,0 +1,7 @@
+# Agent inbox
+
+Drop handoff markdown files here when Slack is inconvenient:
+
+`YYYY-MM-DD-<from>-to-<to>.md`
+
+Cursor Orchestrator consumes these on the next pass.
