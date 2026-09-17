@@ -44,7 +44,7 @@ Cloud Cursor **cannot** dispatch local agents. Treat the diagram above as a *hum
 
 | PR | Track | Base | Notes |
 | --- | --- | --- | --- |
-| [#7](https://github.com/kuuratsanik/Whisparr-AI/pull/7) | B | `develop` | MatchD golden-set **1000** rows; baseline 468/1000 (~47%) |
+| [#7](https://github.com/kuuratsanik/Whisparr-AI/pull/7) | B | `develop` | MatchD golden-set **1155** rows; baseline 623/1155 (~54%); Gemini review shipped |
 | [#6](https://github.com/kuuratsanik/Whisparr-AI/pull/6) | — | `develop` | Multi-agent coordination kit |
 | [#4](https://github.com/kuuratsanik/Whisparr-AI/pull/4) | A | `develop` | MVP-A + net8-now decision |
 | [#5](https://github.com/kuuratsanik/Whisparr-AI/pull/5) | A (+ vision) | `eros` | net8 spike, dispositions, fixtures; **Docker hold** |

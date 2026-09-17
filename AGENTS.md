@@ -58,6 +58,6 @@ See `docs/coordination/ROSTER.md` → **Transport reality**. Short version: Slac
 - PR #4 — MVP-A docs + decision (`develop`, merge-ready)
 - PR #5 — MVP-B–E + greenfield + Docker gate (`eros`, draft, hold)
 - PR #6 — multi-agent kit (`develop`, merge-ready)
-- PR #7 — MatchD golden-set **1000** rows; baseline 468/1000 (~47%) (`develop`, draft)
+- PR #7 — MatchD golden-set **1155** rows; baseline 623/1155 (~54%); Gemini rubric review (`develop`, draft)
 - PR #3 — net10-direct docs **superseded for eros**
 - Agent-Bus: `commands/00-smoke-alive.sh` + `10-run-all-pending-v2.sh` queued; awaiting M93p enable + heartbeat
