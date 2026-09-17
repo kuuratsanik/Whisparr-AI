@@ -36,7 +36,7 @@ Cloud Cursor **cannot** dispatch local agents. Treat the diagram above as a *hum
 
 **Daily standups must not claim “Zed owes X”** unless a human is actively running Zed on that task. Local Docker / estate work is **human-or-Zed-at-keyboard**, not cloud-orchestrated.
 
-**Agent-Bus command execution** (`agent-bus-poll.sh` running dropped files as bash-with-sudo) stays **off** until the human gives an explicit yes. Heartbeat-only is intentional.
+**Agent-Bus command execution:** human **YES** recorded 2026-09-17 (`gdrive:Agent-Bus/AUTHORIZATION-COMMAND-EXEC-20260917.md`). Cloud staged `agent-bus-poll-WITH-EXEC.sh` + `enable-command-exec.sh`. **Not live until** someone on the M93p runs `enable-command-exec.sh`. Kill switch remains `STOP` in Agent-Bus root.
 
 ## Open PRs (coord map)
 
