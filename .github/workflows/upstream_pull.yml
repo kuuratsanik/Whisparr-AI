@@ -70,7 +70,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Without these secrets the mint step hard-fails every morning and paints
+      # develop red. Prefer a green no-op + notice until the GitHub App is wired.
+      # See docs/COPILOT_AND_ACTIONS_FAILED_RUNS.md.
+      - name: Check sync app secrets
+        id: secrets
+        env:
+          APP_ID: ${{ secrets.SYNC_APP_ID }}
+          APP_KEY: ${{ secrets.SYNC_APP_PRIVATE_KEY }}
+        run: |
+          if [ -z "$APP_ID" ] || [ -z "$APP_KEY" ]; then
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "::notice title=Upstream Pull skipped::Repository secrets SYNC_APP_ID and SYNC_APP_PRIVATE_KEY are not set. Configure a GitHub App (Contents/Issues/PR write) then re-run. Until then this schedule is a successful no-op."
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Mint an app token
+        if: steps.secrets.outputs.configured == 'true'
         id: app
         uses: actions/create-github-app-token@v1
         with:
@@ -78,12 +95,14 @@ jobs:
           private-key: ${{ secrets.SYNC_APP_PRIVATE_KEY }}
 
       - name: Checkout
+        if: steps.secrets.outputs.configured == 'true'
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
           token: ${{ steps.app.outputs.token }}
 
       - name: Fetch upstream
+        if: steps.secrets.outputs.configured == 'true'
         run: |
           git config user.name 'whisparr-sync'
           git config user.email 'whisparr-sync@users.noreply.github.com'
@@ -91,6 +110,7 @@ jobs:
           git fetch --quiet upstream v5-develop
 
       - name: Find the sync point
+        if: steps.secrets.outputs.configured == 'true'
         id: sync
         run: |
           # Every picked commit records `Sonarr/Sonarr@<sha>` in its subject, and
@@ -120,6 +140,7 @@ jobs:
           echo "Sync point $point ($point_date)"
 
       - name: Track upstream commits
+        if: steps.secrets.outputs.configured == 'true'
         env:
           GH_TOKEN: ${{ steps.app.outputs.token }}
           POINT: ${{ steps.sync.outputs.point }}

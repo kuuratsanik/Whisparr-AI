@@ -1,0 +1,79 @@
+name: Copilot Setup Steps
+
+# Used by GitHub Copilot coding agent / code review before the agent starts.
+# Must live on the default branch (develop) to take effect.
+# Keep build/restore soft-fail so a broken tip still lets @copilot enter and fix.
+#
+# See: docs/COPILOT_AND_ACTIONS_FAILED_RUNS.md
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+  pull_request:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+
+jobs:
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          # develop/v2 tracks net10; eros Track A uses net8 on a different branch.
+          dotnet-version: |
+            8.0.x
+            10.0.x
+
+      - name: Setup Node (Volta pin)
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: yarn
+
+      - name: Enable Corepack / Yarn
+        run: |
+          corepack enable
+          yarn --version
+
+      - name: Restore .NET tools / workloads (best effort)
+        id: dotnet-restore
+        continue-on-error: true
+        run: |
+          set -uo pipefail
+          if [[ -f build.sh ]]; then
+            echo "Repo uses build.sh / solution restore — attempting lightweight restore"
+          fi
+          # Prefer solution restore when present; ignore missing projects.
+          mapfile -t slns < <(find . -maxdepth 3 -name '*.sln' -not -path './spikes/*' | head -5)
+          if ((${#slns[@]})); then
+            for s in "${slns[@]}"; do
+              echo "dotnet restore $s"
+              dotnet restore "$s" || true
+            done
+          else
+            echo "No solution file found at shallow depth; skipping restore"
+          fi
+
+      - name: Yarn install (best effort)
+        id: yarn-install
+        continue-on-error: true
+        run: |
+          if [[ -f package.json ]]; then
+            yarn install --immutable || yarn install
+          fi
+
+      - name: Report setup outcomes
+        run: |
+          echo "dotnet-restore: ${{ steps.dotnet-restore.outcome }}"
+          echo "yarn-install: ${{ steps.yarn-install.outcome }}"
+          echo "Setup finished (soft failures are OK — Copilot can still start)."
