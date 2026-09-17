@@ -18,18 +18,21 @@ Harness: `spikes/matchd/harness` via `./run_baseline.sh` (eros `Parser.ParseMovi
 - Reject ok-rate
 - `failedIds` for red-team follow-up
 
-## Latest seed snapshot (1000 rows)
-Recorded in `results/baseline.json` (`corpusSha256` `3564d5e5…`): **468/1000 pass** (~47%).
-Composition: 910 scene / 44 movie / 46 reject.
-Scene kind P=1.0 / R≈0.997; rejectOk=1.0; prefixStrip=1.0; studio≈0.415; date≈0.878; title≈0.617.
-Corpus is intentionally fail-cluster-heavy so MatchD has a clear opportunity surface (all 532 fails are adversarial scene rows):
+## Latest seed snapshot (1155 rows)
+Recorded in `results/baseline.json` (`corpusSha256` `592d2126…`): **623/1155 pass** (~54%).
+Composition: 1045 scene / 54 movie / 56 reject.
+Sources: adversarial 822 · production-sanitized 155 · issue-1218 134 · issue-1257 44.
+Scene kind P=1.0 / R≈0.997; rejectOk=1.0; prefixStrip=1.0; studio≈0.491; date≈0.894; title≈0.668.
+All **155** `production-sanitized` rows pass. Fail surface unchanged (**532** adversarial scene rows):
 - Dash-human (~143 fails)
 - Date-first (~111)
 - SiteRip mash (~111)
 - EU spaced date (~111)
 - Paren/bracket studio (~56)
 
-Prior 500-row snapshot was ~258/500 (~52%) — pass rate dropped as fail clusters were padded to gate size.
+Prior snapshots: 1000-row `3564d5e5…` 468/1000 (~47%); 500-row ~258/500 (~52%).
+
+Methodology review: `GEMINI_RUBRIC_REVIEW.md` — **ship gate design**; do not staff MatchD rewrite until a challenger beats this SHA.
 
 ## Target for gate
 Beat the recorded baseline on the same `corpusSha256`. Do not compare across different corpus hashes.

@@ -1,17 +1,17 @@
 {
-  "generatedAtUtc": "2026-09-17T12:56:16.1586893Z",
+  "generatedAtUtc": "2026-09-17T13:13:06.0846211Z",
   "parserApi": "NzbDrone.Core.Parser.Parser.ParseMovieTitle (eros)",
   "corpusPath": "/workspace/spikes/matchd/corpus/seed.jsonl",
-  "corpusSha256": "3564d5e5ae082f549e9fe5860b62c61c88e4f71fc87377b97c6a6758f0a50f73",
-  "corpusRows": 1000,
+  "corpusSha256": "592d2126605d73e89ea67cae79dc2be6e4a150270e3d998457baf3065301c746",
+  "corpusRows": 1155,
   "summary": {
-    "passed": 468,
+    "passed": 623,
     "failed": 532,
     "sceneKindPrecision": 1,
-    "sceneKindRecall": 0.9967032967032967,
-    "studioAccuracy": 0.4153846153846154,
-    "dateAccuracy": 0.878021978021978,
-    "titleAccuracy": 0.6174004192872118,
+    "sceneKindRecall": 0.9971291866028709,
+    "studioAccuracy": 0.4909090909090909,
+    "dateAccuracy": 0.8937799043062201,
+    "titleAccuracy": 0.6678798908098271,
     "rejectOkRate": 1,
     "prefixStripAccuracy": 1,
     "failedIds": [
@@ -24044,6 +24044,3621 @@
         "firstPerformer": "India Summer",
         "releaseTokens": ".India.Summer.Back.Seat.REPACK.",
         "year": 0
+      }
+    },
+    {
+      "id": "gs-1001",
+      "releaseTitle": "Northlight.2021.01.01.Alex.River.Open.Window.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Northlight",
+        "releaseDate": "2021-01-01",
+        "firstPerformer": "Alex River",
+        "releaseTokens": ".Alex.River.Open.Window",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1002",
+      "releaseTitle": "AmberRoom.21.01.04.Jordan.Quill.Quiet.Room.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "AmberRoom",
+        "releaseDate": "2021-01-04",
+        "firstPerformer": "Jordan Quill",
+        "releaseTokens": ".Jordan.Quill.Quiet.Room.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1003",
+      "releaseTitle": "GlassHarbor.2021-01-07.Casey.Bloom.Night.Drive.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "GlassHarbor",
+        "releaseDate": "2021-01-07",
+        "firstPerformer": "Casey Bloom",
+        "releaseTokens": ".Casey.Bloom.Night.Drive.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1004",
+      "releaseTitle": "QuietForge.2021-01-10.Riley.Stone.Soft.Focus.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "QuietForge",
+        "releaseDate": "2021-01-10",
+        "firstPerformer": "Riley Stone",
+        "releaseTokens": ".Riley.Stone.Soft.Focus.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1005",
+      "releaseTitle": "RedCedar.2021-01-13.Morgan.Dale.After.Hours.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RedCedar",
+        "releaseDate": "2021-01-13",
+        "firstPerformer": "Morgan Dale",
+        "releaseTokens": ".Morgan.Dale.After.Hours.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1006",
+      "releaseTitle": "BlueLantern.2021.01.16.Avery.Lane.Cold.Front.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BlueLantern",
+        "releaseDate": "2021-01-16",
+        "firstPerformer": "Avery Lane",
+        "releaseTokens": ".Avery.Lane.Cold.Front.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1007",
+      "releaseTitle": "SoftAtlas.21.01.19.Quinn.Frost.Warm.Light.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SoftAtlas",
+        "releaseDate": "2021-01-19",
+        "firstPerformer": "Quinn Frost",
+        "releaseTokens": ".Quinn.Frost.Warm.Light",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1008",
+      "releaseTitle": "IronPetal.2021-01-22.Reese.Hart.Side.Door.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "IronPetal",
+        "releaseDate": "2021-01-22",
+        "firstPerformer": "Reese Hart",
+        "releaseTokens": ".Reese.Hart.Side.Door.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1009",
+      "releaseTitle": "CopperVein.2021-01-25.Taylor.Ash.Last.Call.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "CopperVein",
+        "releaseDate": "2021-01-25",
+        "firstPerformer": "Taylor Ash",
+        "releaseTokens": ".Taylor.Ash.Last.Call.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1010",
+      "releaseTitle": "SilverDock.2021-01-28.Jamie.Cole.First.Look.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SilverDock",
+        "releaseDate": "2021-01-28",
+        "firstPerformer": "Jamie Cole",
+        "releaseTokens": ".Jamie.Cole.First.Look.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1011",
+      "releaseTitle": "Northlight.2021.01.31.Drew.Vale.Glass.House.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Northlight",
+        "releaseDate": "2021-01-31",
+        "firstPerformer": "Drew Vale",
+        "releaseTokens": ".Drew.Vale.Glass.House.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1012",
+      "releaseTitle": "AmberRoom.21.02.03.Skyler.Moss.Private.Lesson.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "AmberRoom",
+        "releaseDate": "2021-02-03",
+        "firstPerformer": "Skyler Moss",
+        "releaseTokens": ".Skyler.Moss.Private.Lesson.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1013",
+      "releaseTitle": "GlassHarbor.2021-02-06.Alex.River.Slow.Burn.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "GlassHarbor",
+        "releaseDate": "2021-02-06",
+        "firstPerformer": "Alex River",
+        "releaseTokens": ".Alex.River.Slow.Burn",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1014",
+      "releaseTitle": "QuietForge.2021-02-09.Jordan.Quill.Deep.Current.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "QuietForge",
+        "releaseDate": "2021-02-09",
+        "firstPerformer": "Jordan Quill",
+        "releaseTokens": ".Jordan.Quill.Deep.Current.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1015",
+      "releaseTitle": "RedCedar.2021-02-12.Casey.Bloom.Empty.Chair.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RedCedar",
+        "releaseDate": "2021-02-12",
+        "firstPerformer": "Casey Bloom",
+        "releaseTokens": ".Casey.Bloom.Empty.Chair.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1016",
+      "releaseTitle": "BlueLantern.2021.02.15.Riley.Stone.Paper.Walls.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BlueLantern",
+        "releaseDate": "2021-02-15",
+        "firstPerformer": "Riley Stone",
+        "releaseTokens": ".Riley.Stone.Paper.Walls.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1017",
+      "releaseTitle": "SoftAtlas.21.02.18.Morgan.Dale.Low.Tide.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SoftAtlas",
+        "releaseDate": "2021-02-18",
+        "firstPerformer": "Morgan Dale",
+        "releaseTokens": ".Morgan.Dale.Low.Tide.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1018",
+      "releaseTitle": "IronPetal.2021-02-21.Avery.Lane.High.Wire.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "IronPetal",
+        "releaseDate": "2021-02-21",
+        "firstPerformer": "Avery Lane",
+        "releaseTokens": ".Avery.Lane.High.Wire.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1019",
+      "releaseTitle": "CopperVein.2021-02-24.Quinn.Frost.False.Start.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "CopperVein",
+        "releaseDate": "2021-02-24",
+        "firstPerformer": "Quinn Frost",
+        "releaseTokens": ".Quinn.Frost.False.Start",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1020",
+      "releaseTitle": "SilverDock.2021-02-27.Reese.Hart.True.North.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SilverDock",
+        "releaseDate": "2021-02-27",
+        "firstPerformer": "Reese Hart",
+        "releaseTokens": ".Reese.Hart.True.North.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1021",
+      "releaseTitle": "Northlight.2021.03.02.Taylor.Ash.Open.Window.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Northlight",
+        "releaseDate": "2021-03-02",
+        "firstPerformer": "Taylor Ash",
+        "releaseTokens": ".Taylor.Ash.Open.Window.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1022",
+      "releaseTitle": "AmberRoom.21.03.05.Jamie.Cole.Quiet.Room.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "AmberRoom",
+        "releaseDate": "2021-03-05",
+        "firstPerformer": "Jamie Cole",
+        "releaseTokens": ".Jamie.Cole.Quiet.Room.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1023",
+      "releaseTitle": "GlassHarbor.2021-03-08.Drew.Vale.Night.Drive.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "GlassHarbor",
+        "releaseDate": "2021-03-08",
+        "firstPerformer": "Drew Vale",
+        "releaseTokens": ".Drew.Vale.Night.Drive.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1024",
+      "releaseTitle": "QuietForge.2021-03-11.Skyler.Moss.Soft.Focus.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "QuietForge",
+        "releaseDate": "2021-03-11",
+        "firstPerformer": "Skyler Moss",
+        "releaseTokens": ".Skyler.Moss.Soft.Focus.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1025",
+      "releaseTitle": "RedCedar.2021-03-14.Alex.River.After.Hours.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RedCedar",
+        "releaseDate": "2021-03-14",
+        "firstPerformer": "Alex River",
+        "releaseTokens": ".Alex.River.After.Hours",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1026",
+      "releaseTitle": "BlueLantern.2021.03.17.Jordan.Quill.Cold.Front.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BlueLantern",
+        "releaseDate": "2021-03-17",
+        "firstPerformer": "Jordan Quill",
+        "releaseTokens": ".Jordan.Quill.Cold.Front.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1027",
+      "releaseTitle": "SoftAtlas.21.03.20.Casey.Bloom.Warm.Light.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SoftAtlas",
+        "releaseDate": "2021-03-20",
+        "firstPerformer": "Casey Bloom",
+        "releaseTokens": ".Casey.Bloom.Warm.Light.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1028",
+      "releaseTitle": "IronPetal.2021-03-23.Riley.Stone.Side.Door.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "IronPetal",
+        "releaseDate": "2021-03-23",
+        "firstPerformer": "Riley Stone",
+        "releaseTokens": ".Riley.Stone.Side.Door.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1029",
+      "releaseTitle": "CopperVein.2021-03-26.Morgan.Dale.Last.Call.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "CopperVein",
+        "releaseDate": "2021-03-26",
+        "firstPerformer": "Morgan Dale",
+        "releaseTokens": ".Morgan.Dale.Last.Call.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1030",
+      "releaseTitle": "SilverDock.2021-03-29.Avery.Lane.First.Look.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SilverDock",
+        "releaseDate": "2021-03-29",
+        "firstPerformer": "Avery Lane",
+        "releaseTokens": ".Avery.Lane.First.Look.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1031",
+      "releaseTitle": "Northlight.2021.04.01.Quinn.Frost.Glass.House.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Northlight",
+        "releaseDate": "2021-04-01",
+        "firstPerformer": "Quinn Frost",
+        "releaseTokens": ".Quinn.Frost.Glass.House",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1032",
+      "releaseTitle": "AmberRoom.21.04.04.Reese.Hart.Private.Lesson.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "AmberRoom",
+        "releaseDate": "2021-04-04",
+        "firstPerformer": "Reese Hart",
+        "releaseTokens": ".Reese.Hart.Private.Lesson.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1033",
+      "releaseTitle": "GlassHarbor.2021-04-07.Taylor.Ash.Slow.Burn.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "GlassHarbor",
+        "releaseDate": "2021-04-07",
+        "firstPerformer": "Taylor Ash",
+        "releaseTokens": ".Taylor.Ash.Slow.Burn.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1034",
+      "releaseTitle": "QuietForge.2021-04-10.Jamie.Cole.Deep.Current.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "QuietForge",
+        "releaseDate": "2021-04-10",
+        "firstPerformer": "Jamie Cole",
+        "releaseTokens": ".Jamie.Cole.Deep.Current.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1035",
+      "releaseTitle": "RedCedar.2021-04-13.Drew.Vale.Empty.Chair.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RedCedar",
+        "releaseDate": "2021-04-13",
+        "firstPerformer": "Drew Vale",
+        "releaseTokens": ".Drew.Vale.Empty.Chair.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1036",
+      "releaseTitle": "BlueLantern.2021.04.16.Skyler.Moss.Paper.Walls.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BlueLantern",
+        "releaseDate": "2021-04-16",
+        "firstPerformer": "Skyler Moss",
+        "releaseTokens": ".Skyler.Moss.Paper.Walls.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1037",
+      "releaseTitle": "SoftAtlas.21.04.19.Alex.River.Low.Tide.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SoftAtlas",
+        "releaseDate": "2021-04-19",
+        "firstPerformer": "Alex River",
+        "releaseTokens": ".Alex.River.Low.Tide",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1038",
+      "releaseTitle": "IronPetal.2021-04-22.Jordan.Quill.High.Wire.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "IronPetal",
+        "releaseDate": "2021-04-22",
+        "firstPerformer": "Jordan Quill",
+        "releaseTokens": ".Jordan.Quill.High.Wire.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1039",
+      "releaseTitle": "CopperVein.2021-04-25.Casey.Bloom.False.Start.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "CopperVein",
+        "releaseDate": "2021-04-25",
+        "firstPerformer": "Casey Bloom",
+        "releaseTokens": ".Casey.Bloom.False.Start.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1040",
+      "releaseTitle": "SilverDock.2021-04-28.Riley.Stone.True.North.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SilverDock",
+        "releaseDate": "2021-04-28",
+        "firstPerformer": "Riley Stone",
+        "releaseTokens": ".Riley.Stone.True.North.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1041",
+      "releaseTitle": "Northlight.2021.05.01.Morgan.Dale.Open.Window.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Northlight",
+        "releaseDate": "2021-05-01",
+        "firstPerformer": "Morgan Dale",
+        "releaseTokens": ".Morgan.Dale.Open.Window.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1042",
+      "releaseTitle": "AmberRoom.21.05.04.Avery.Lane.Quiet.Room.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "AmberRoom",
+        "releaseDate": "2021-05-04",
+        "firstPerformer": "Avery Lane",
+        "releaseTokens": ".Avery.Lane.Quiet.Room.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1043",
+      "releaseTitle": "GlassHarbor.2021-05-07.Quinn.Frost.Night.Drive.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "GlassHarbor",
+        "releaseDate": "2021-05-07",
+        "firstPerformer": "Quinn Frost",
+        "releaseTokens": ".Quinn.Frost.Night.Drive",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1044",
+      "releaseTitle": "QuietForge.2021-05-10.Reese.Hart.Soft.Focus.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "QuietForge",
+        "releaseDate": "2021-05-10",
+        "firstPerformer": "Reese Hart",
+        "releaseTokens": ".Reese.Hart.Soft.Focus.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1045",
+      "releaseTitle": "RedCedar.2021-05-13.Taylor.Ash.After.Hours.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RedCedar",
+        "releaseDate": "2021-05-13",
+        "firstPerformer": "Taylor Ash",
+        "releaseTokens": ".Taylor.Ash.After.Hours.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1046",
+      "releaseTitle": "BlueLantern.2021.05.16.Jamie.Cole.Cold.Front.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BlueLantern",
+        "releaseDate": "2021-05-16",
+        "firstPerformer": "Jamie Cole",
+        "releaseTokens": ".Jamie.Cole.Cold.Front.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1047",
+      "releaseTitle": "SoftAtlas.21.05.19.Drew.Vale.Warm.Light.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SoftAtlas",
+        "releaseDate": "2021-05-19",
+        "firstPerformer": "Drew Vale",
+        "releaseTokens": ".Drew.Vale.Warm.Light.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1048",
+      "releaseTitle": "IronPetal.2021-05-22.Skyler.Moss.Side.Door.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "IronPetal",
+        "releaseDate": "2021-05-22",
+        "firstPerformer": "Skyler Moss",
+        "releaseTokens": ".Skyler.Moss.Side.Door.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1049",
+      "releaseTitle": "CopperVein.2021-05-25.Alex.River.Last.Call.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "CopperVein",
+        "releaseDate": "2021-05-25",
+        "firstPerformer": "Alex River",
+        "releaseTokens": ".Alex.River.Last.Call",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1050",
+      "releaseTitle": "SilverDock.2021-05-28.Jordan.Quill.First.Look.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SilverDock",
+        "releaseDate": "2021-05-28",
+        "firstPerformer": "Jordan Quill",
+        "releaseTokens": ".Jordan.Quill.First.Look.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1051",
+      "releaseTitle": "Northlight.2021.05.31.Casey.Bloom.Glass.House.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Northlight",
+        "releaseDate": "2021-05-31",
+        "firstPerformer": "Casey Bloom",
+        "releaseTokens": ".Casey.Bloom.Glass.House.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1052",
+      "releaseTitle": "AmberRoom.21.06.03.Riley.Stone.Private.Lesson.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "AmberRoom",
+        "releaseDate": "2021-06-03",
+        "firstPerformer": "Riley Stone",
+        "releaseTokens": ".Riley.Stone.Private.Lesson.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1053",
+      "releaseTitle": "GlassHarbor.2021-06-06.Morgan.Dale.Slow.Burn.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "GlassHarbor",
+        "releaseDate": "2021-06-06",
+        "firstPerformer": "Morgan Dale",
+        "releaseTokens": ".Morgan.Dale.Slow.Burn.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1054",
+      "releaseTitle": "QuietForge.2021-06-09.Avery.Lane.Deep.Current.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "QuietForge",
+        "releaseDate": "2021-06-09",
+        "firstPerformer": "Avery Lane",
+        "releaseTokens": ".Avery.Lane.Deep.Current.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1055",
+      "releaseTitle": "RedCedar.2021-06-12.Quinn.Frost.Empty.Chair.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RedCedar",
+        "releaseDate": "2021-06-12",
+        "firstPerformer": "Quinn Frost",
+        "releaseTokens": ".Quinn.Frost.Empty.Chair",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1056",
+      "releaseTitle": "BlueLantern.2021.06.15.Reese.Hart.Paper.Walls.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BlueLantern",
+        "releaseDate": "2021-06-15",
+        "firstPerformer": "Reese Hart",
+        "releaseTokens": ".Reese.Hart.Paper.Walls.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1057",
+      "releaseTitle": "SoftAtlas.21.06.18.Taylor.Ash.Low.Tide.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SoftAtlas",
+        "releaseDate": "2021-06-18",
+        "firstPerformer": "Taylor Ash",
+        "releaseTokens": ".Taylor.Ash.Low.Tide.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1058",
+      "releaseTitle": "IronPetal.2021-06-21.Jamie.Cole.High.Wire.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "IronPetal",
+        "releaseDate": "2021-06-21",
+        "firstPerformer": "Jamie Cole",
+        "releaseTokens": ".Jamie.Cole.High.Wire.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1059",
+      "releaseTitle": "CopperVein.2021-06-24.Drew.Vale.False.Start.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "CopperVein",
+        "releaseDate": "2021-06-24",
+        "firstPerformer": "Drew Vale",
+        "releaseTokens": ".Drew.Vale.False.Start.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1060",
+      "releaseTitle": "SilverDock.2021-06-27.Skyler.Moss.True.North.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SilverDock",
+        "releaseDate": "2021-06-27",
+        "firstPerformer": "Skyler Moss",
+        "releaseTokens": ".Skyler.Moss.True.North.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1061",
+      "releaseTitle": "Northlight.2021.06.30.Alex.River.Open.Window.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Northlight",
+        "releaseDate": "2021-06-30",
+        "firstPerformer": "Alex River",
+        "releaseTokens": ".Alex.River.Open.Window",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1062",
+      "releaseTitle": "AmberRoom.21.07.03.Jordan.Quill.Quiet.Room.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "AmberRoom",
+        "releaseDate": "2021-07-03",
+        "firstPerformer": "Jordan Quill",
+        "releaseTokens": ".Jordan.Quill.Quiet.Room.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1063",
+      "releaseTitle": "GlassHarbor.2021-07-06.Casey.Bloom.Night.Drive.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "GlassHarbor",
+        "releaseDate": "2021-07-06",
+        "firstPerformer": "Casey Bloom",
+        "releaseTokens": ".Casey.Bloom.Night.Drive.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1064",
+      "releaseTitle": "QuietForge.2021-07-09.Riley.Stone.Soft.Focus.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "QuietForge",
+        "releaseDate": "2021-07-09",
+        "firstPerformer": "Riley Stone",
+        "releaseTokens": ".Riley.Stone.Soft.Focus.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1065",
+      "releaseTitle": "RedCedar.2021-07-12.Morgan.Dale.After.Hours.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RedCedar",
+        "releaseDate": "2021-07-12",
+        "firstPerformer": "Morgan Dale",
+        "releaseTokens": ".Morgan.Dale.After.Hours.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1066",
+      "releaseTitle": "BlueLantern.2021.07.15.Avery.Lane.Cold.Front.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BlueLantern",
+        "releaseDate": "2021-07-15",
+        "firstPerformer": "Avery Lane",
+        "releaseTokens": ".Avery.Lane.Cold.Front.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1067",
+      "releaseTitle": "SoftAtlas.21.07.18.Quinn.Frost.Warm.Light.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SoftAtlas",
+        "releaseDate": "2021-07-18",
+        "firstPerformer": "Quinn Frost",
+        "releaseTokens": ".Quinn.Frost.Warm.Light",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1068",
+      "releaseTitle": "IronPetal.2021-07-21.Reese.Hart.Side.Door.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "IronPetal",
+        "releaseDate": "2021-07-21",
+        "firstPerformer": "Reese Hart",
+        "releaseTokens": ".Reese.Hart.Side.Door.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1069",
+      "releaseTitle": "CopperVein.2021-07-24.Taylor.Ash.Last.Call.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "CopperVein",
+        "releaseDate": "2021-07-24",
+        "firstPerformer": "Taylor Ash",
+        "releaseTokens": ".Taylor.Ash.Last.Call.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1070",
+      "releaseTitle": "SilverDock.2021-07-27.Jamie.Cole.First.Look.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SilverDock",
+        "releaseDate": "2021-07-27",
+        "firstPerformer": "Jamie Cole",
+        "releaseTokens": ".Jamie.Cole.First.Look.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1071",
+      "releaseTitle": "Northlight.2021.07.30.Drew.Vale.Glass.House.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Northlight",
+        "releaseDate": "2021-07-30",
+        "firstPerformer": "Drew Vale",
+        "releaseTokens": ".Drew.Vale.Glass.House.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1072",
+      "releaseTitle": "AmberRoom.21.08.02.Skyler.Moss.Private.Lesson.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "AmberRoom",
+        "releaseDate": "2021-08-02",
+        "firstPerformer": "Skyler Moss",
+        "releaseTokens": ".Skyler.Moss.Private.Lesson.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1073",
+      "releaseTitle": "GlassHarbor.2021-08-05.Alex.River.Slow.Burn.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "GlassHarbor",
+        "releaseDate": "2021-08-05",
+        "firstPerformer": "Alex River",
+        "releaseTokens": ".Alex.River.Slow.Burn",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1074",
+      "releaseTitle": "QuietForge.2021-08-08.Jordan.Quill.Deep.Current.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "QuietForge",
+        "releaseDate": "2021-08-08",
+        "firstPerformer": "Jordan Quill",
+        "releaseTokens": ".Jordan.Quill.Deep.Current.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1075",
+      "releaseTitle": "RedCedar.2021-08-11.Casey.Bloom.Empty.Chair.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RedCedar",
+        "releaseDate": "2021-08-11",
+        "firstPerformer": "Casey Bloom",
+        "releaseTokens": ".Casey.Bloom.Empty.Chair.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1076",
+      "releaseTitle": "BlueLantern.2021.08.14.Riley.Stone.Paper.Walls.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BlueLantern",
+        "releaseDate": "2021-08-14",
+        "firstPerformer": "Riley Stone",
+        "releaseTokens": ".Riley.Stone.Paper.Walls.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1077",
+      "releaseTitle": "SoftAtlas.21.08.17.Morgan.Dale.Low.Tide.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SoftAtlas",
+        "releaseDate": "2021-08-17",
+        "firstPerformer": "Morgan Dale",
+        "releaseTokens": ".Morgan.Dale.Low.Tide.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1078",
+      "releaseTitle": "IronPetal.2021-08-20.Avery.Lane.High.Wire.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "IronPetal",
+        "releaseDate": "2021-08-20",
+        "firstPerformer": "Avery Lane",
+        "releaseTokens": ".Avery.Lane.High.Wire.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1079",
+      "releaseTitle": "CopperVein.2021-08-23.Quinn.Frost.False.Start.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "CopperVein",
+        "releaseDate": "2021-08-23",
+        "firstPerformer": "Quinn Frost",
+        "releaseTokens": ".Quinn.Frost.False.Start",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1080",
+      "releaseTitle": "SilverDock.2021-08-26.Reese.Hart.True.North.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SilverDock",
+        "releaseDate": "2021-08-26",
+        "firstPerformer": "Reese Hart",
+        "releaseTokens": ".Reese.Hart.True.North.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1081",
+      "releaseTitle": "Northlight.2021.08.29.Taylor.Ash.Open.Window.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Northlight",
+        "releaseDate": "2021-08-29",
+        "firstPerformer": "Taylor Ash",
+        "releaseTokens": ".Taylor.Ash.Open.Window.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1082",
+      "releaseTitle": "AmberRoom.21.09.01.Jamie.Cole.Quiet.Room.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "AmberRoom",
+        "releaseDate": "2021-09-01",
+        "firstPerformer": "Jamie Cole",
+        "releaseTokens": ".Jamie.Cole.Quiet.Room.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1083",
+      "releaseTitle": "GlassHarbor.2021-09-04.Drew.Vale.Night.Drive.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "GlassHarbor",
+        "releaseDate": "2021-09-04",
+        "firstPerformer": "Drew Vale",
+        "releaseTokens": ".Drew.Vale.Night.Drive.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1084",
+      "releaseTitle": "QuietForge.2021-09-07.Skyler.Moss.Soft.Focus.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "QuietForge",
+        "releaseDate": "2021-09-07",
+        "firstPerformer": "Skyler Moss",
+        "releaseTokens": ".Skyler.Moss.Soft.Focus.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1085",
+      "releaseTitle": "RedCedar.2021-09-10.Alex.River.After.Hours.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RedCedar",
+        "releaseDate": "2021-09-10",
+        "firstPerformer": "Alex River",
+        "releaseTokens": ".Alex.River.After.Hours",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1086",
+      "releaseTitle": "BlueLantern.2021.09.13.Jordan.Quill.Cold.Front.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BlueLantern",
+        "releaseDate": "2021-09-13",
+        "firstPerformer": "Jordan Quill",
+        "releaseTokens": ".Jordan.Quill.Cold.Front.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1087",
+      "releaseTitle": "SoftAtlas.21.09.16.Casey.Bloom.Warm.Light.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SoftAtlas",
+        "releaseDate": "2021-09-16",
+        "firstPerformer": "Casey Bloom",
+        "releaseTokens": ".Casey.Bloom.Warm.Light.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1088",
+      "releaseTitle": "IronPetal.2021-09-19.Riley.Stone.Side.Door.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "IronPetal",
+        "releaseDate": "2021-09-19",
+        "firstPerformer": "Riley Stone",
+        "releaseTokens": ".Riley.Stone.Side.Door.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1089",
+      "releaseTitle": "CopperVein.2021-09-22.Morgan.Dale.Last.Call.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "CopperVein",
+        "releaseDate": "2021-09-22",
+        "firstPerformer": "Morgan Dale",
+        "releaseTokens": ".Morgan.Dale.Last.Call.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1090",
+      "releaseTitle": "SilverDock.2021-09-25.Avery.Lane.First.Look.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SilverDock",
+        "releaseDate": "2021-09-25",
+        "firstPerformer": "Avery Lane",
+        "releaseTokens": ".Avery.Lane.First.Look.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1091",
+      "releaseTitle": "Northlight.2021.09.28.Quinn.Frost.Glass.House.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Northlight",
+        "releaseDate": "2021-09-28",
+        "firstPerformer": "Quinn Frost",
+        "releaseTokens": ".Quinn.Frost.Glass.House",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1092",
+      "releaseTitle": "AmberRoom.21.10.01.Reese.Hart.Private.Lesson.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "AmberRoom",
+        "releaseDate": "2021-10-01",
+        "firstPerformer": "Reese Hart",
+        "releaseTokens": ".Reese.Hart.Private.Lesson.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1093",
+      "releaseTitle": "GlassHarbor.2021-10-04.Taylor.Ash.Slow.Burn.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "GlassHarbor",
+        "releaseDate": "2021-10-04",
+        "firstPerformer": "Taylor Ash",
+        "releaseTokens": ".Taylor.Ash.Slow.Burn.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1094",
+      "releaseTitle": "QuietForge.2021-10-07.Jamie.Cole.Deep.Current.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "QuietForge",
+        "releaseDate": "2021-10-07",
+        "firstPerformer": "Jamie Cole",
+        "releaseTokens": ".Jamie.Cole.Deep.Current.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1095",
+      "releaseTitle": "RedCedar.2021-10-10.Drew.Vale.Empty.Chair.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RedCedar",
+        "releaseDate": "2021-10-10",
+        "firstPerformer": "Drew Vale",
+        "releaseTokens": ".Drew.Vale.Empty.Chair.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1096",
+      "releaseTitle": "BlueLantern.2021.10.13.Skyler.Moss.Paper.Walls.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BlueLantern",
+        "releaseDate": "2021-10-13",
+        "firstPerformer": "Skyler Moss",
+        "releaseTokens": ".Skyler.Moss.Paper.Walls.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1097",
+      "releaseTitle": "SoftAtlas.21.10.16.Alex.River.Low.Tide.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SoftAtlas",
+        "releaseDate": "2021-10-16",
+        "firstPerformer": "Alex River",
+        "releaseTokens": ".Alex.River.Low.Tide",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1098",
+      "releaseTitle": "IronPetal.2021-10-19.Jordan.Quill.High.Wire.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "IronPetal",
+        "releaseDate": "2021-10-19",
+        "firstPerformer": "Jordan Quill",
+        "releaseTokens": ".Jordan.Quill.High.Wire.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1099",
+      "releaseTitle": "CopperVein.2021-10-22.Casey.Bloom.False.Start.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "CopperVein",
+        "releaseDate": "2021-10-22",
+        "firstPerformer": "Casey Bloom",
+        "releaseTokens": ".Casey.Bloom.False.Start.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1100",
+      "releaseTitle": "SilverDock.2021-10-25.Riley.Stone.True.North.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SilverDock",
+        "releaseDate": "2021-10-25",
+        "firstPerformer": "Riley Stone",
+        "releaseTokens": ".Riley.Stone.True.North.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1101",
+      "releaseTitle": "Northlight.2021.10.28.Morgan.Dale.Open.Window.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Northlight",
+        "releaseDate": "2021-10-28",
+        "firstPerformer": "Morgan Dale",
+        "releaseTokens": ".Morgan.Dale.Open.Window.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1102",
+      "releaseTitle": "AmberRoom.21.10.31.Avery.Lane.Quiet.Room.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "AmberRoom",
+        "releaseDate": "2021-10-31",
+        "firstPerformer": "Avery Lane",
+        "releaseTokens": ".Avery.Lane.Quiet.Room.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1103",
+      "releaseTitle": "GlassHarbor.2021-11-03.Quinn.Frost.Night.Drive.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "GlassHarbor",
+        "releaseDate": "2021-11-03",
+        "firstPerformer": "Quinn Frost",
+        "releaseTokens": ".Quinn.Frost.Night.Drive",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1104",
+      "releaseTitle": "QuietForge.2021-11-06.Reese.Hart.Soft.Focus.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "QuietForge",
+        "releaseDate": "2021-11-06",
+        "firstPerformer": "Reese Hart",
+        "releaseTokens": ".Reese.Hart.Soft.Focus.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1105",
+      "releaseTitle": "RedCedar.2021-11-09.Taylor.Ash.After.Hours.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RedCedar",
+        "releaseDate": "2021-11-09",
+        "firstPerformer": "Taylor Ash",
+        "releaseTokens": ".Taylor.Ash.After.Hours.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1106",
+      "releaseTitle": "BlueLantern.2021.11.12.Jamie.Cole.Cold.Front.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BlueLantern",
+        "releaseDate": "2021-11-12",
+        "firstPerformer": "Jamie Cole",
+        "releaseTokens": ".Jamie.Cole.Cold.Front.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1107",
+      "releaseTitle": "SoftAtlas.21.11.15.Drew.Vale.Warm.Light.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SoftAtlas",
+        "releaseDate": "2021-11-15",
+        "firstPerformer": "Drew Vale",
+        "releaseTokens": ".Drew.Vale.Warm.Light.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1108",
+      "releaseTitle": "IronPetal.2021-11-18.Skyler.Moss.Side.Door.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "IronPetal",
+        "releaseDate": "2021-11-18",
+        "firstPerformer": "Skyler Moss",
+        "releaseTokens": ".Skyler.Moss.Side.Door.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1109",
+      "releaseTitle": "CopperVein.2021-11-21.Alex.River.Last.Call.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "CopperVein",
+        "releaseDate": "2021-11-21",
+        "firstPerformer": "Alex River",
+        "releaseTokens": ".Alex.River.Last.Call",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1110",
+      "releaseTitle": "SilverDock.2021-11-24.Jordan.Quill.First.Look.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SilverDock",
+        "releaseDate": "2021-11-24",
+        "firstPerformer": "Jordan Quill",
+        "releaseTokens": ".Jordan.Quill.First.Look.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1111",
+      "releaseTitle": "Northlight.2021.11.27.Casey.Bloom.Glass.House.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Northlight",
+        "releaseDate": "2021-11-27",
+        "firstPerformer": "Casey Bloom",
+        "releaseTokens": ".Casey.Bloom.Glass.House.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1112",
+      "releaseTitle": "AmberRoom.21.11.30.Riley.Stone.Private.Lesson.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "AmberRoom",
+        "releaseDate": "2021-11-30",
+        "firstPerformer": "Riley Stone",
+        "releaseTokens": ".Riley.Stone.Private.Lesson.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1113",
+      "releaseTitle": "GlassHarbor.2021-12-03.Morgan.Dale.Slow.Burn.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "GlassHarbor",
+        "releaseDate": "2021-12-03",
+        "firstPerformer": "Morgan Dale",
+        "releaseTokens": ".Morgan.Dale.Slow.Burn.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1114",
+      "releaseTitle": "QuietForge.2021-12-06.Avery.Lane.Deep.Current.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "QuietForge",
+        "releaseDate": "2021-12-06",
+        "firstPerformer": "Avery Lane",
+        "releaseTokens": ".Avery.Lane.Deep.Current.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1115",
+      "releaseTitle": "RedCedar.2021-12-09.Quinn.Frost.Empty.Chair.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RedCedar",
+        "releaseDate": "2021-12-09",
+        "firstPerformer": "Quinn Frost",
+        "releaseTokens": ".Quinn.Frost.Empty.Chair",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1116",
+      "releaseTitle": "BlueLantern.2021.12.12.Reese.Hart.Paper.Walls.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BlueLantern",
+        "releaseDate": "2021-12-12",
+        "firstPerformer": "Reese Hart",
+        "releaseTokens": ".Reese.Hart.Paper.Walls.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1117",
+      "releaseTitle": "SoftAtlas.21.12.15.Taylor.Ash.Low.Tide.2160p.WEB.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SoftAtlas",
+        "releaseDate": "2021-12-15",
+        "firstPerformer": "Taylor Ash",
+        "releaseTokens": ".Taylor.Ash.Low.Tide.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1118",
+      "releaseTitle": "IronPetal.2021-12-18.Jamie.Cole.High.Wire.720p.WEBRip.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "IronPetal",
+        "releaseDate": "2021-12-18",
+        "firstPerformer": "Jamie Cole",
+        "releaseTokens": ".Jamie.Cole.High.Wire.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1119",
+      "releaseTitle": "CopperVein.2021-12-21.Drew.Vale.False.Start.1080p.WEB.x264.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "CopperVein",
+        "releaseDate": "2021-12-21",
+        "firstPerformer": "Drew Vale",
+        "releaseTokens": ".Drew.Vale.False.Start.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1120",
+      "releaseTitle": "SilverDock.2021-12-24.Skyler.Moss.True.North.2160p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SilverDock",
+        "releaseDate": "2021-12-24",
+        "firstPerformer": "Skyler Moss",
+        "releaseTokens": ".Skyler.Moss.True.North.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1121",
+      "releaseTitle": "GAY: Northlight.2022-06-01.Riley.Stone.Cold.Front.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Northlight",
+        "releaseDate": "2022-06-01",
+        "firstPerformer": "Riley Stone",
+        "releaseTokens": ".Riley.Stone.Cold.Front.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1122",
+      "releaseTitle": "XXX: AmberRoom.2022-06-08.Morgan.Dale.Warm.Light.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "AmberRoom",
+        "releaseDate": "2022-06-08",
+        "firstPerformer": "Morgan Dale",
+        "releaseTokens": ".Morgan.Dale.Warm.Light.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1123",
+      "releaseTitle": "ADULT: GlassHarbor.2022-06-15.Avery.Lane.Side.Door.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "GlassHarbor",
+        "releaseDate": "2022-06-15",
+        "firstPerformer": "Avery Lane",
+        "releaseTokens": ".Avery.Lane.Side.Door.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1124",
+      "releaseTitle": "PORN: QuietForge.2022-06-22.Quinn.Frost.Last.Call.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "QuietForge",
+        "releaseDate": "2022-06-22",
+        "firstPerformer": "Quinn Frost",
+        "releaseTokens": ".Quinn.Frost.Last.Call.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1125",
+      "releaseTitle": "STRAIGHT: RedCedar.2022-06-29.Reese.Hart.First.Look.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RedCedar",
+        "releaseDate": "2022-06-29",
+        "firstPerformer": "Reese Hart",
+        "releaseTokens": ".Reese.Hart.First.Look.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1126",
+      "releaseTitle": "GAY: BlueLantern.2022-07-06.Taylor.Ash.Glass.House.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "BlueLantern",
+        "releaseDate": "2022-07-06",
+        "firstPerformer": "Taylor Ash",
+        "releaseTokens": ".Taylor.Ash.Glass.House.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1127",
+      "releaseTitle": "XXX: SoftAtlas.2022-07-13.Jamie.Cole.Private.Lesson.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SoftAtlas",
+        "releaseDate": "2022-07-13",
+        "firstPerformer": "Jamie Cole",
+        "releaseTokens": ".Jamie.Cole.Private.Lesson.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1128",
+      "releaseTitle": "ADULT: IronPetal.2022-07-20.Drew.Vale.Slow.Burn.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "IronPetal",
+        "releaseDate": "2022-07-20",
+        "firstPerformer": "Drew Vale",
+        "releaseTokens": ".Drew.Vale.Slow.Burn.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1129",
+      "releaseTitle": "PORN: CopperVein.2022-07-27.Skyler.Moss.Deep.Current.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "CopperVein",
+        "releaseDate": "2022-07-27",
+        "firstPerformer": "Skyler Moss",
+        "releaseTokens": ".Skyler.Moss.Deep.Current.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1130",
+      "releaseTitle": "STRAIGHT: SilverDock.2022-08-03.Alex.River.Empty.Chair.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "SilverDock",
+        "releaseDate": "2022-08-03",
+        "firstPerformer": "Alex River",
+        "releaseTokens": ".Alex.River.Empty.Chair.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1131",
+      "releaseTitle": "GAY: Northlight.2022-08-10.Jordan.Quill.Paper.Walls.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "Northlight",
+        "releaseDate": "2022-08-10",
+        "firstPerformer": "Jordan Quill",
+        "releaseTokens": ".Jordan.Quill.Paper.Walls.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1132",
+      "releaseTitle": "XXX: AmberRoom.2022-08-17.Casey.Bloom.Low.Tide.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "AmberRoom",
+        "releaseDate": "2022-08-17",
+        "firstPerformer": "Casey Bloom",
+        "releaseTokens": ".Casey.Bloom.Low.Tide.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1133",
+      "releaseTitle": "ADULT: GlassHarbor.2022-08-24.Riley.Stone.High.Wire.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "GlassHarbor",
+        "releaseDate": "2022-08-24",
+        "firstPerformer": "Riley Stone",
+        "releaseTokens": ".Riley.Stone.High.Wire.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1134",
+      "releaseTitle": "PORN: QuietForge.2022-08-31.Morgan.Dale.False.Start.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "QuietForge",
+        "releaseDate": "2022-08-31",
+        "firstPerformer": "Morgan Dale",
+        "releaseTokens": ".Morgan.Dale.False.Start.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1135",
+      "releaseTitle": "STRAIGHT: RedCedar.2022-09-07.Avery.Lane.True.North.1080p.mp4",
+      "expectKind": "scene",
+      "predictedKind": "scene",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": true,
+        "studioTitle": "RedCedar",
+        "releaseDate": "2022-09-07",
+        "firstPerformer": "Avery Lane",
+        "releaseTokens": ".Avery.Lane.True.North.",
+        "year": 0
+      }
+    },
+    {
+      "id": "gs-1136",
+      "releaseTitle": "GAY: Harbor Lights Legacy (2010)",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Harbor Lights Legacy",
+        "year": 2010
+      }
+    },
+    {
+      "id": "gs-1137",
+      "releaseTitle": "XXX: Cedar.Room.Chronicle.2011.1080p.BluRay.x264",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Cedar Room Chronicle",
+        "year": 2011
+      }
+    },
+    {
+      "id": "gs-1138",
+      "releaseTitle": "ADULT: Atlas Drift (2012)",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Atlas Drift",
+        "year": 2012
+      }
+    },
+    {
+      "id": "gs-1139",
+      "releaseTitle": "PORN: Petal.Protocol.2013.1080p.BluRay.x264",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Petal Protocol",
+        "year": 2013
+      }
+    },
+    {
+      "id": "gs-1140",
+      "releaseTitle": "STRAIGHT: Dockside Memory (2014)",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Dockside Memory",
+        "year": 2014
+      }
+    },
+    {
+      "id": "gs-1141",
+      "releaseTitle": "GAY: Lantern.Hours.2015.1080p.BluRay.x264",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Lantern Hours",
+        "year": 2015
+      }
+    },
+    {
+      "id": "gs-1142",
+      "releaseTitle": "XXX: Forge Quiet (2016)",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Forge Quiet",
+        "year": 2016
+      }
+    },
+    {
+      "id": "gs-1143",
+      "releaseTitle": "ADULT: Vein.Echo.2017.1080p.BluRay.x264",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Vein Echo",
+        "year": 2017
+      }
+    },
+    {
+      "id": "gs-1144",
+      "releaseTitle": "PORN: Northline (2018)",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Northline",
+        "year": 2018
+      }
+    },
+    {
+      "id": "gs-1145",
+      "releaseTitle": "STRAIGHT: Soft.Atlas.Cut.2019.1080p.BluRay.x264",
+      "expectKind": "movie",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": true,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "Soft Atlas Cut",
+        "year": 2019
+      }
+    },
+    {
+      "id": "gs-1146",
+      "releaseTitle": "sample.nfo",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-1147",
+      "releaseTitle": "cover.jpg",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-1148",
+      "releaseTitle": "Thumbs.db",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-1149",
+      "releaseTitle": "desktop.ini",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-1150",
+      "releaseTitle": "Season01.Complete",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-1151",
+      "releaseTitle": "readme.md",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-1152",
+      "releaseTitle": "noise.partial",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-1153",
+      "releaseTitle": "onlyyear.2019.mp4",
+      "expectKind": "reject",
+      "predictedKind": "movie",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      },
+      "parsed": {
+        "isScene": false,
+        "primaryMovieTitle": "onlyyear",
+        "year": 2019
+      }
+    },
+    {
+      "id": "gs-1154",
+      "releaseTitle": "pack.S01E01",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
+      }
+    },
+    {
+      "id": "gs-1155",
+      "releaseTitle": "foobar.bin",
+      "expectKind": "reject",
+      "predictedKind": "reject",
+      "pass": true,
+      "categoryPrefixed": false,
+      "prefixStripOk": true,
+      "fields": {
+        "kind": true,
+        "studio": true,
+        "date": true,
+        "primaryTitle": true,
+        "performers": true
       }
     }
   ]
