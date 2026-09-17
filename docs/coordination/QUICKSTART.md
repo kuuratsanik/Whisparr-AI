@@ -15,10 +15,16 @@
 | **Gemini** | Paste `prompts/gemini/SYSTEM.md` |
 
 ## Daily loop
-1. Cursor posts / reads handoffs in Slack.
-2. Assignees work their seat.
-3. Cursor updates Notion statuses + PRs.
-4. Gemini reviews open PRs; Grok feeds adversarial fixtures when matching work is active.
+1. Cursor posts / reads handoffs in Slack (and may cover idle cloud-capable seats itself).
+2. Assignees who are **actually staffed** work their seat (paste prompts; Claude/Grok/Gemini do not auto-subscribe).
+3. **Zed only moves when a human opens a Zed turn** on the M93p (or local machine). Slack “@zed” is a reminder for you, not a network delivery.
+4. Cursor updates Notion statuses + PRs.
+5. Gemini reviews open PRs when someone pastes the reviewer prompt; Grok feeds adversarial fixtures when matching work is active.
 
 ## Asking another model for help
 Use the Handoff template — never “hey fix whisparr” without Goal / Branch / Done-when.
+
+## Do not
+- Expect Cursor Cloud to reach `~/coordination/` or trigger Agent-Bus bash-with-sudo.
+- Enable Agent-Bus command execution without an explicit human yes (unattended root risk).
+- Blame “Zed silence” on Slack when no local turn was started.

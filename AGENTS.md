@@ -29,7 +29,7 @@ This repo is worked by **several tools and models at once**. Read this before ch
 | **Implementer (FE)** | Cursor / Claude | Node 20 align, Sonarr-line FE ports only | Vite rewrite in parallel with net8 |
 | **Reviewer** | Gemini | Diff critique, risk notes, test-gap lists | Committing code without Orchestrator ack |
 | **Adversary / red-team** | Grok | Break matching hypotheses, find false-positive grab cases | Merging or rewriting product docs |
-| **Local IDE pair** | Zed (+ Claude/Gemini in Zed) | Fast local edits following `docs/coordination/HANDOFF.md` | Pushing to `develop`/`eros` without PR |
+| **Local IDE pair** | Zed (+ Claude ACP on M93p) | Human-driven local edits / Docker smoke; listens to local bus only | Expecting Slack auto-dispatch from Cursor Cloud; unattended root via Agent-Bus without explicit yes |
 | **Docs synthesizer** | Claude (chat) | ADR/Notion prose from handoffs | Inventing status that isn’t in git/Notion |
 
 Paste-ready prompts: `prompts/{cursor,claude,grok,gemini,zed}/`.
@@ -46,10 +46,17 @@ Paste-ready prompts: `prompts/{cursor,claude,grok,gemini,zed}/`.
 1. Write a short note using `docs/coordination/HANDOFF.md` template into Slack thread **or** `docs/coordination/inbox/<date>-<agent>.md`.
 2. Tag the next seat (`@cursor` / `@claude` / `@grok` / `@gemini` / `@zed`) with **Goal / Context / Constraints / Done-when**.
 3. Orchestrator (Cursor) triages inbox → opens/updates PRs → marks Notion.
+4. **Zed tags are for humans:** open Zed locally and paste the handoff — cloud cannot deliver it to the M93p bus.
 
-## Status snapshot (2026-09-11)
+## Transport constraints
+
+See `docs/coordination/ROSTER.md` → **Transport reality**. Short version: Slack ≠ local bus; Agent-Bus command execution stays off until explicit human yes; Cursor Cloud is not on the M93p agent-bus roster yet.
+
+## Status snapshot (2026-09-17)
 
 - Decision: **net8-now** for `eros`
-- PR #4 — MVP-A docs + decision (`develop`)
-- PR #5 — MVP-B–E + greenfield vision (`eros`, draft, hold merge for Docker)
+- PR #4 — MVP-A docs + decision (`develop`, merge-ready)
+- PR #5 — MVP-B–E + greenfield + Docker gate (`eros`, draft, hold)
+- PR #6 — multi-agent kit (`develop`, merge-ready)
+- PR #7 — MatchD golden-set 200-row baseline (`develop`, draft)
 - PR #3 — net10-direct docs **superseded for eros**

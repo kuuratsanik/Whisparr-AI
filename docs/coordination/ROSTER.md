@@ -21,12 +21,31 @@ Whisparr work spans **Cursor, Zed, Claude, Grok, and Gemini**. None of them shar
 
 Cursor owns the GitHub remote and Notion/Slack writes. Other seats produce **handoffs + patches/PRs** Cursor can land.
 
+## Transport reality (read this)
+
+Cloud Cursor **cannot** dispatch local agents. Treat the diagram above as a *human paste* protocol, not a live message bus.
+
+| Channel | Who hears it | Cloud Cursor can… |
+| --- | --- | --- |
+| Slack `#whisparr-tech-upgrade` | Humans + Cursor Cloud subscription | Post / read standups |
+| GitHub PRs / `docs/coordination/inbox/` | Anyone who opens the repo | Write handoffs; cannot force another seat to run |
+| M93p `~/coordination/` (stdio MCP) | Zed Claude ACP **only when a human is driving a turn** | **Nothing** — LAN / cloudflared blocked from cloud |
+| Google Drive `Agent-Bus` | Heartbeat publisher only | Write files if Drive MCP is auth’d; **must not** enable remote bash-with-sudo |
+
+**Zed** is the local seat that is actually wired (Claude ACP + MCP to the coordination bus + scoped FS). It does **not** auto-poll Slack. Cursor Cloud is **not** on the M93p “active agents on the bus” list yet.
+
+**Daily standups must not claim “Zed owes X”** unless a human is actively running Zed on that task. Local Docker / estate work is **human-or-Zed-at-keyboard**, not cloud-orchestrated.
+
+**Agent-Bus command execution** (`agent-bus-poll.sh` running dropped files as bash-with-sudo) stays **off** until the human gives an explicit yes. Heartbeat-only is intentional.
+
 ## Open PRs (coord map)
 
 | PR | Track | Base | Notes |
 | --- | --- | --- | --- |
+| [#7](https://github.com/kuuratsanik/Whisparr-AI/pull/7) | B | `develop` | MatchD golden-set + baseline (draft) |
+| [#6](https://github.com/kuuratsanik/Whisparr-AI/pull/6) | — | `develop` | Multi-agent coordination kit |
 | [#4](https://github.com/kuuratsanik/Whisparr-AI/pull/4) | A | `develop` | MVP-A + net8-now decision |
-| [#5](https://github.com/kuuratsanik/Whisparr-AI/pull/5) | A (+ vision) | `eros` | net8 spike, dispositions, fixtures; **hold merge** |
+| [#5](https://github.com/kuuratsanik/Whisparr-AI/pull/5) | A (+ vision) | `eros` | net8 spike, dispositions, fixtures; **Docker hold** |
 | [#3](https://github.com/kuuratsanik/Whisparr-AI/pull/3) | — | `develop` | net10-direct docs; superseded **for eros** |
 | [#2](https://github.com/kuuratsanik/Whisparr-AI/pull/2) | A | `develop` | superseded by #4 |
 
@@ -47,8 +66,10 @@ See `prompts/*/SYSTEM.md` for paste-ready instructions per tool.
 - Subscribes to `#whisparr-tech-upgrade` handoff thread.
 
 ### Zed
-- Local pair-programmer. Reads `AGENTS.md`. Uses branch prefix `zed/…-a3ae`.
-- Never force-pushes shared branches. Ends session with a Handoff.
+- Local pair-programmer on the M93p (or any machine with the repo). Reads `AGENTS.md`. Branch prefix `zed/…-a3ae`.
+- Listens to the **local** coordination bus / human-driven Zed turns — **not** Slack auto-dispatch from Cursor Cloud.
+- Never force-pushes shared branches. Ends session with a Handoff (Slack or inbox) so Cursor can triage.
+- Docker publisher smoke / estate scripts: run locally when at the keyboard; do not expect cloud to trigger them.
 
 ### Claude
 - Deep implementer / ADR writer. Prefer focused diffs + fixtures.
