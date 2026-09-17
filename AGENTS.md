@@ -50,7 +50,7 @@ Paste-ready prompts: `prompts/{cursor,claude,grok,gemini,zed}/`.
 
 ## Transport constraints
 
-See `docs/coordination/ROSTER.md` → **Transport reality**. Short version: Slack ≠ local bus; Agent-Bus command execution stays off until explicit human yes; Cursor Cloud is not on the M93p agent-bus roster yet.
+See `docs/coordination/ROSTER.md` → **Transport reality**. Short version: Slack ≠ local bus; Agent-Bus command-exec **YES** staged 2026-09-17 but **not live** until local `enable-command-exec.sh` (heartbeat still absent); Cursor Cloud is not on the M93p agent-bus roster yet.
 
 ## Status snapshot (2026-09-17)
 
@@ -58,5 +58,6 @@ See `docs/coordination/ROSTER.md` → **Transport reality**. Short version: Slac
 - PR #4 — MVP-A docs + decision (`develop`, merge-ready)
 - PR #5 — MVP-B–E + greenfield + Docker gate (`eros`, draft, hold)
 - PR #6 — multi-agent kit (`develop`, merge-ready)
-- PR #7 — MatchD golden-set 200-row baseline (`develop`, draft)
+- PR #7 — MatchD golden-set **1000** rows; baseline 468/1000 (~47%) (`develop`, draft)
 - PR #3 — net10-direct docs **superseded for eros**
+- Agent-Bus: `commands/00-smoke-alive.sh` + `10-run-all-pending-v2.sh` queued; awaiting M93p enable + heartbeat

@@ -38,11 +38,13 @@ Cloud Cursor **cannot** dispatch local agents. Treat the diagram above as a *hum
 
 **Agent-Bus command execution:** human **YES** recorded 2026-09-17 (`gdrive:Agent-Bus/AUTHORIZATION-COMMAND-EXEC-20260917.md`). Cloud staged `agent-bus-poll-WITH-EXEC.sh` + `enable-command-exec.sh`. **Not live until** someone on the M93p runs `enable-command-exec.sh`. Kill switch remains `STOP` in Agent-Bus root.
 
+**Queued (waiting on heartbeat):** `commands/00-smoke-alive.sh`, `commands/10-run-all-pending-v2.sh` (2026-09-17). No `heartbeat.txt` / smoke result yet — exec channel still dark until local enable.
+
 ## Open PRs (coord map)
 
 | PR | Track | Base | Notes |
 | --- | --- | --- | --- |
-| [#7](https://github.com/kuuratsanik/Whisparr-AI/pull/7) | B | `develop` | MatchD golden-set + baseline (draft) |
+| [#7](https://github.com/kuuratsanik/Whisparr-AI/pull/7) | B | `develop` | MatchD golden-set **1000** rows; baseline 468/1000 (~47%) |
 | [#6](https://github.com/kuuratsanik/Whisparr-AI/pull/6) | — | `develop` | Multi-agent coordination kit |
 | [#4](https://github.com/kuuratsanik/Whisparr-AI/pull/4) | A | `develop` | MVP-A + net8-now decision |
 | [#5](https://github.com/kuuratsanik/Whisparr-AI/pull/5) | A (+ vision) | `eros` | net8 spike, dispositions, fixtures; **Docker hold** |
