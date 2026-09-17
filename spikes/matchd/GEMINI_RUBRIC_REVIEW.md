@@ -36,4 +36,4 @@
 ## Recommended next measurements
 1. Keep `production-sanitized` ≥20% of corpus; re-record baseline SHA.
 2. Add a `rejectHardOk` side metric (null-or-empty-title) without changing pass/fail.
-3. Freeze a **challenge slice** (the 532 fail IDs at SHA `3564d5e5…`) so MatchD can report lift on hard dialects separately from overall %.
+3. Freeze a **challenge slice** (the 532 adversarial fail IDs — stable since the 1000-row pad) so MatchD can report lift on hard dialects separately from overall %.
