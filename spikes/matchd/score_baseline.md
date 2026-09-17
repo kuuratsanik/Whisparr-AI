@@ -18,14 +18,18 @@ Harness: `spikes/matchd/harness` via `./run_baseline.sh` (eros `Parser.ParseMovi
 - Reject ok-rate
 - `failedIds` for red-team follow-up
 
-## Latest seed snapshot (500 rows)
-Recorded in `results/baseline.json`: **258/500 pass** (~52%). Scene kind P≈1.0 / R≈0.998; rejectOk = 1.0.
-Corpus is intentionally fail-cluster-heavy so MatchD has a clear opportunity surface:
-- Dash-human (~63 fails)
-- Date-first (~51)
-- SiteRip mash (~51)
-- EU spaced date (~50)
-- Paren/bracket studio (~26)
+## Latest seed snapshot (1000 rows)
+Recorded in `results/baseline.json` (`corpusSha256` `3564d5e5…`): **468/1000 pass** (~47%).
+Composition: 910 scene / 44 movie / 46 reject.
+Scene kind P=1.0 / R≈0.997; rejectOk=1.0; prefixStrip=1.0; studio≈0.415; date≈0.878; title≈0.617.
+Corpus is intentionally fail-cluster-heavy so MatchD has a clear opportunity surface (all 532 fails are adversarial scene rows):
+- Dash-human (~143 fails)
+- Date-first (~111)
+- SiteRip mash (~111)
+- EU spaced date (~111)
+- Paren/bracket studio (~56)
+
+Prior 500-row snapshot was ~258/500 (~52%) — pass rate dropped as fail clusters were padded to gate size.
 
 ## Target for gate
 Beat the recorded baseline on the same `corpusSha256`. Do not compare across different corpus hashes.
